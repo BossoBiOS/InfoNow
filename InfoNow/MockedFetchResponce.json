@@ -1,0 +1,1313 @@
+//
+//  MockedFetchResponce.swift
+//  InfoNow
+//
+//  Created by Stefan kund on 12/10/2025.
+//
+
+{
+  "status": "ok",
+  "totalResults": 5132,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec agences",
+      "title": "Lola Young porte plainte contre le producteur de son tube « Messy »",
+      "description": "Le producteur revendiquerait indûment les crédits d’écriture de quatre des titres de la chanteuse britannique",
+      "url": "https://www.20minutes.fr/arts-stars/people/4178338-20251011-lola-young-porte-plainte-contre-producteur-tube-messy",
+      "urlToImage": "https://img.20mn.fr/7yRX_nH4TVa_TXkGbhD90Sk/1444x920_celebrities-arrive-at-the-brit-awards-2025-at-intercontinental-hotel-london-featuring-lola-young-where-london-united-kingdom-when-01-mar-2025-credit-cover-images",
+      "publishedAt": "2025-10-11T11:02:36Z",
+      "content": "Lola Young ne se laissera pas flouer aussi facilement. La chanteuse britannique de 24 ans a déposé une plainte devant le tribunal de la propriété intellectuelle de Londres contre Carter Lang, lun des… [+1180 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Anne-Aël Durand",
+      "title": "Troubles du langage et de l’apprentissage : les prises en charge restent « insuffisantes »",
+      "description": "Dyslexie, dyspraxie, dyscalculie… Le diagnostic s’améliore, mais, à l’occasion de la journée nationale des troubles « dys », samedi 11 octobre, un sondage de la Fédération française des dys souligne les effets négatifs d’un parcours de soins tardif, notamment…",
+      "url": "https://www.lemonde.fr/societe/article/2025/10/11/troubles-du-langage-et-de-l-apprentissage-les-prises-en-charge-restent-insuffisantes_6645763_3224.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/6000/4000/1440/960/60/0/122e6dc_upload-1-27mb0fi6t05p-000-33u96e6.jpg",
+      "publishedAt": "2025-10-11T11:00:08Z",
+      "content": "Des lycéens, le jour de la rentrée scolaire, à Lyon, le 4 septembre 2023. JEFF PACHOUD/AFP\r\nLongtemps considérés comme les cancres du fond de la classe, les enfants souffrant de troubles « dys » sont… [+1423 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, Sébastien Lecornu, premier ministre : « Je n’ai pas d’autre ambition que de sortir de ce moment qui est très pénible pour tout le monde »",
+      "description": "Renommé à Matignon vendredi soir, l’ancien ministre des armées doit constituer son équipe d’ici à lundi pour commencer à temps l’examen du budget 2026. Pour sa première prise de parole, il a dit vouloir mettre la lutte contre l’insécurité et la délinquance à …",
+      "url": "https://www.lemonde.fr/politique/live/2025/10/11/en-direct-sebastien-lecornu-premier-ministre-je-n-ai-pas-d-autre-ambition-que-de-sortir-de-ce-moment-qui-est-tres-penible-pour-tout-le-monde_6645554_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/11/119/0/2048/1024/1440/720/60/0/5ed2a6a_upload-1-ehnllythfexi-l1007136.jpg",
+      "publishedAt": "2025-10-11T10:51:28Z",
+      "content": "Horizons réunit de nouveau son bureau politique, élargi à tous les parlementaires, à 11 h 30 en visioconférence, après la reconduction de Sébastien Lecornu à Matignon. A la sortie de la réunion à lEl… [+1179 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Trafic de stupéfiants : Huit personnes mises en examen, dont une avocate",
+      "description": "Les investigations ont mis à jour « un réseau organisé » d’importation de cannabis « depuis l’Espagne à destination du nord de la France et des agglomérations de Rouen et du Havre »",
+      "url": "https://www.20minutes.fr/societe/4178680-20251011-trafic-stupefiants-huit-personnes-mises-examen-dont-avocate",
+      "urlToImage": "https://img.20mn.fr/SB84OCm5SCiOhifOjyv61yk/1444x920_illustration-d-agents-de-police-nationale-lors-d-une-operation-avec-la-population",
+      "publishedAt": "2025-10-11T10:35:10Z",
+      "content": "Un trafic international qui durait depuis le début de lannée entre lEspagne et le nord de la France. Huit personnes, dont une avocate du barreau de Rouen, ont été mises en examen et placées en détent… [+2477 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Caroline Vié",
+      "title": "« Super Grand prix » : Pourquoi Europa-Park se lance sur les circuits du cinéma",
+      "description": "Le parc d’attractions allemand produit un film d’animation mettant en scène ses mascottes, deux souris pilotes de course",
+      "url": "https://www.20minutes.fr/arts-stars/cinema/4177617-20251011-super-grand-prix-pourquoi-europa-park-lance-circuits-cinema",
+      "urlToImage": "https://img.20mn.fr/C--FvN3bRv-hUNNnfAtNvyk/1444x920_super-grand-prix-de-waldemar-fast",
+      "publishedAt": "2025-10-11T10:32:36Z",
+      "content": "Europa-Park se lance en cinéma ! Le parc dattractions allemand, situé à quelques dizaines de kilomètres de la frontière française, offre un écrin animé à ses mascottes Ed et Edda Euromausi. Ses souri… [+3770 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, accord de paix à Gaza : les organisations humanitaires « optimistes » sur retour de l’aide mais des inquiétudes demeurent sur les modalités",
+      "description": "Le plan Trump stipule qu’une « aide complète sera immédiatement acheminée dans la bande de Gaza » dès l’entrée en vigueur de l’accord de paix. Le Bureau des affaires humanitaires des Nations unies a déclaré avoir le feu vert israélien pour 170 000 tonnes d’ai…",
+      "url": "https://www.lemonde.fr/international/live/2025/10/11/en-direct-accord-de-paix-a-gaza-les-organisations-humanitaires-optimistes-sur-retour-de-l-aide-mais-des-inquietudes-demeurent-sur-les-modalites_6645703_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/11/164/0/4671/2335/1440/720/60/0/7c6e1f8_ftp-import-images-1-9j57gmhis154-2025-10-11t084517z-1561625959-rc2k9hade4f9-rtrmadp-3-israel-palestinians-gaza.JPG",
+      "publishedAt": "2025-10-11T10:18:29Z",
+      "content": "Des personnes qui avaient été déplacées vers le sud de la bande de Gaza empruntent une route pour retourner dans le Nord après lentrée en vigueur du cessez-le-feu, dans le centre de la bande de Gaza,… [+1976 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Gaïdz Minassian",
+      "title": "Christian Lequesne, professeur de relations internationales : « La montée d’un nationalisme peureux nuit au soft power de la France »",
+      "description": "Si Christian Lequesne rejette l’idée d’une France enfermée dans la morosité qui entache son image attractive à l’international, il observe une tendance à un repli sur soi sclérosant. Mais pour le spécialiste de la diplomatie, le soft power culturel et intelle…",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/christian-lequesne-professeur-de-relations-internationales-la-montee-d-un-nationalisme-peureux-nuit-au-soft-power-de-la-france_6645761_3210.html",
+      "urlToImage": "https://img.lemde.fr/2018/02/14/0/240/1616/1077/1440/960/60/0/ccedb8c_23639-94od03.teikv.jpg",
+      "publishedAt": "2025-10-11T10:15:13Z",
+      "content": "Devant « La Joconde », au Musée du Louvre à Paris. RICHARD LEY/FLICKR CC BY 2.0\r\nChristian Lequesne est professeur de relations internationales au CERI-Sciences Po, ancien directeur du CERI, il trava… [+1067 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "M.B.",
+      "title": "Pyrénées-Atlantiques : Un enfant de 9 ans agressé par des adultes ivres dans un bus de l’agglomération Pays basque",
+      "description": "Un enfant de 9 ans a été agressé jeudi en fin d’après-midi par des adultes ivres, dans un bus de la ligne 41 du réseau Txik Txak de l’agglomération Pays basque",
+      "url": "https://www.20minutes.fr/societe/4178677-20251011-pyrenees-atlantiques-enfant-9-ans-agresse-adultes-bus-agglomeration-pays-basque",
+      "urlToImage": "https://img.20mn.fr/OkneaxTaQPywWqCwVB6_lik/1444x920_un-effectif-de-gendarmes-de-sille-le-guillaume-presente-au-nouveau-prefet-sebastien-jallet-ici-une-voiture-de-gendarmerie-siccolipatrick-7u6a1535-credit-siccoli-patrick-sipa-2507221449",
+      "publishedAt": "2025-10-11T10:08:22Z",
+      "content": "Des gifles, des insultes, et de la bière crachée au visage. Un enfant de 9 ans a été agressé jeudi en fin daprès-midi par des adultes, dans un bus de la ligne 41 du réseau Txik Txak de lagglomération… [+1401 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec agences",
+      "title": "Cardi B a demandé conseil à Shakira pour surmonter son divorce d’Offset",
+      "description": "La chanteuse colombienne avait documenté sa rupture avec Gerard Piqué et sa liberté retrouvée",
+      "url": "https://www.20minutes.fr/arts-stars/people/4178335-20251011-cardi-b-demande-conseil-shakira-surmonter-divorce-offset",
+      "urlToImage": "https://img.20mn.fr/6kb341pkT1inLp4ViTD93yk/1444x920_celebrities-attend-the-2024-met-gala-celebrating-sleeping-beauties-reawakening-fashion-at-the-metropolitan-museum-of-art-in-new-york-city-featuring-cardi-b-where-new-york-united-states-when-06-may-2024-credit-michael-stewart-insta-rimages-com",
+      "publishedAt": "2025-10-11T10:02:37Z",
+      "content": "Cardi B a trouvé une alliée inattendue dans sa traversée du divorce : Shakira. Les deux femmes se sont rencontrées en 2023, lors de leur collaboration sur le titre Puntería. À cette époque, la chante… [+1399 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Dora Christian",
+      "title": "Proffee : cette boisson protéinée et « anti-fringales » est-elle vraiment efficace pour mincir ?",
+      "description": "On a demandé à une diététicienne nutritionniste de décrypter ce mélange liquide de café et protéines qui fait actuellement le buzz sur TikTok pour ses vertus « minceur »",
+      "url": "https://www.20minutes.fr/tempo/food/4177701-20251011-proffee-boisson-proteinee-anti-fringales-vraiment-efficace-mincir",
+      "urlToImage": "https://img.20mn.fr/nEXLg5jBR0KRRcdCoucA8Ck/1444x920_x",
+      "publishedAt": "2025-10-11T10:02:37Z",
+      "content": "Lautomne est là et les boissons chaudes réconfortantes à base de café reviennent pour aromatiser nos journées au bureau en les rendant plus douillettes. Mais sil fallait sarrêter là, ce serait trop f… [+3440 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Eric Béziat",
+      "title": "De BYD à Xpeng, les marques automobiles chinoises à l’assaut des flottes d’entreprise françaises",
+      "description": "La présence des marques nées en Chine et désormais actives en France est encore très confidentielle dans les flottes. Mais certaines, fortes de leurs gros moyens et de leur avance technologique dans l’électrique, ne cachent pas leurs rêves de conquête.",
+      "url": "https://www.lemonde.fr/economie/article/2025/10/11/de-byd-a-xpeng-les-marques-automobiles-chinoises-a-l-assaut-des-flottes-d-entreprise-francaises_6645760_3234.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/0/0/4900/3266/1440/960/60/0/ebbd935_upload-1-a9cwct100bnv-gettyimages-2156874857.jpg",
+      "publishedAt": "2025-10-11T10:00:18Z",
+      "content": "Un véhicule électrique de la marque chinoise BYD dans latelier dun showroom BYD à Paris, le 14 juin 2024. BLOOMBERG / BLOOMBERG VIA GETTY IMAGES\r\nValentin, jeune artisan taxi dans la Lozère rurale ; … [+1222 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Nicolas Chapuis",
+      "title": "Aux Etats-Unis, le shutdown commence à peser sur l’économie",
+      "description": "En l’absence d’accord sur le budget au Sénat, l’administration américaine est bloquée depuis le 1ᵉʳ octobre. Plus de 600 000 employés fédéraux ont été placés au chômage partiel et les agents pourraient se voir privés d’une partie de leur salaire.",
+      "url": "https://www.lemonde.fr/economie/article/2025/10/11/aux-etats-unis-le-shutdown-commence-a-peser-sur-l-economie_6645759_3234.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/0/0/5122/3415/1440/960/60/0/9a7620a_ftp-import-images-1-8tpxv1kudrjj-b5e984d893fd49b0a8077b3aec8d083c-0-de865c243fde43dbb551df603d35795c.jpg",
+      "publishedAt": "2025-10-11T10:00:08Z",
+      "content": "Un panneau indiquant « Fermé à toutes les visites », dans la rotonde du Capitole à Washington, le neuvième jour du shutdown, le 9 octobre 2025. ALLISON ROBBERT / AP\r\nAu onzième jour du shutdown, les … [+1343 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Pauline Croquet",
+      "title": "Les réalisateurs de « K-pop Demon Hunters » reviennent sur la conception de leur film phénomène",
+      "description": "De passage à Paris, Maggie Kang et Chris Appelhans souhaitaient injecter dans leur film d’animation centré sur la pop music d’authentiques éléments de la culture pop et traditionnelle de la Corée du Sud.",
+      "url": "https://www.lemonde.fr/culture/article/2025/10/11/les-realisateurs-de-k-pop-demon-hunters-reviennent-sur-la-conception-de-leur-film-phenomene_6645758_3246.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/357/1206/804/1440/960/60/0/02e0507_upload-1-muvgupjaninr-kpopdemonhunters-prores422hq-sdr-2ch-20250424-01-04-39-22.jpg",
+      "publishedAt": "2025-10-11T10:00:08Z",
+      "content": "Image extraite du film danimation « K-pop Demon Hunters », de Maggie Kang et Chris Appelhans. NETFLIX\r\nIls goûtent aujourdhui le succès écrasant de K-Pop Demon Hunters, disponible sur Netflix depuis … [+1200 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "M.M. avec AFP",
+      "title": "En images : La Corée du Nord célèbre les 80 ans du parti unique avec un impressionnant défilé militaire",
+      "description": "La dictature dirigée par Kim Jong-Un a exhibé ses atouts militaires vendredi soir, à l’occasion du 80e anniversaire du parti unique",
+      "url": "https://www.20minutes.fr/diaporama/diaporama-4178672-images-coree-nord-celebre-80-ans-parti-unique-impressionnant-defile-militaire",
+      "urlToImage": "https://img.20mn.fr/rDoWvicxQCO6W5Do02D4xSk/1444x920_des-centaines-de-soldats-ont-defile-vendredi-soir-sur-la-place-kim-il-sung-de-pyongyang",
+      "publishedAt": "2025-10-11T09:58:35Z",
+      "content": "Un anniversaire, des personnalités étrangères et des armes, beaucoup d'armes : la Corée du Nord s'est illustrée vendredi soir lors d'un défilé militaire, à l'occasion des 80 ans du parti unique. Sur … [+641 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Soudan : au moins 30 morts à cause d’une frappe de drone sur un centre de déplacés à El-Fasher, selon une organisation locale",
+      "description": "El-Fasher est la dernière grande ville de la vaste région du Darfour qui échappe encore au contrôle total des Forces de soutien rapide, en guerre contre l’armée soudanaise depuis avril 2023.",
+      "url": "https://www.lemonde.fr/afrique/article/2025/10/11/soudan-au-moins-30-morts-dans-une-frappe-de-drone-sur-un-centre-de-deplaces-a-el-fasher-selon-une-organisation-locale_6645757_3212.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/08/0/179/3642/2428/1440/960/60/0/7941f06_ftp-import-images-1-2g6ipe5f3hnc-2025-10-08t115423z-1379133982-rc217haekokr-rtrmadp-3-sudan-politics-fashir.JPG",
+      "publishedAt": "2025-10-11T09:36:25Z",
+      "content": "Un abri construit dans le camp de déplacés dEl-Fasher, au Soudan, le 7 octobre 2025. EL TAYEB SIDDIG / REUTERS\r\nUne frappe de drone contre un centre de déplacés a fait au moins 30 morts, samedi 11 oc… [+1527 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Jean-Pierre Stroobants",
+      "title": "Aux Pays-Bas, Geert Wilders suspend sa campagne électorale par crainte d’un attentat",
+      "description": "Le dirigeant d’extrême droite pourrait avoir été l’une des cibles des trois personnes arrêtées la veille à Anvers, en Belgique, soupçonnées d’avoir préparé des attaques contre des responsables politiques.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/aux-pays-bas-geert-wilders-suspend-sa-campagne-electorale-par-crainte-d-un-attentat_6645756_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/06/198/0/5250/3500/1440/960/60/0/1a22fa0_ftp-import-images-1-lmx4gig61gqf-5098427-01-06.jpg",
+      "publishedAt": "2025-10-11T09:36:17Z",
+      "content": "Une affiche électorale représentant le leader néerlandais du Parti pour la liberté (PVV), parti dextrême droite, tête de liste aux prochaines élections législatives, Geert Wilders, à La Haye, le 6 oc… [+1169 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, guerre en Ukraine : la région d’Odessa subit des coupures d’électricité après une attaque russe",
+      "description": "« Hier [vendredi] soir, l’ennemi a attaqué les infrastructures énergétiques et civiles de la région d’Odessa », a déclaré le gouverneur régional, Oleg Kiper, sur Telegram.",
+      "url": "https://www.lemonde.fr/international/live/2025/10/11/en-direct-guerre-en-ukraine-la-region-d-odessa-subit-des-coupures-d-electricite-apres-une-attaque-russe_6644466_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/463/0/3987/1993/1440/720/60/0/388d96c_ftp-import-images-1-jtljxx8o82ke-2025-10-09t081347z-1147779068-rc288ha4901t-rtrmadp-3-ukraine-crisis-atack-chornomorsk.JPG",
+      "publishedAt": "2025-10-11T09:34:14Z",
+      "content": "Deux semaines après le survol de son espace aérien par des drones à lorigine non identifiée, le Danemark va acheter des avions de combat américains F-35 pour renforcer son système de défense. « Nous … [+1258 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "Quiz culture générale : que savez-vous du Panthéon ?",
+      "description": "Etes-vous au point sur ce monument et les personnalités qui y sont honorées ? Faites ce test inspiré de Mémorable, l’application de culture générale du « Monde ».",
+      "url": "https://www.lemonde.fr/culture/article/2025/10/11/quiz-culture-generale-que-savez-vous-du-pantheon_6103767_3247.html",
+      "urlToImage": "https://img.lemde.fr/2023/05/03/158/0/692/461/1440/960/60/0/ec44b12_1683116869660-visuel-m-morable-720.png",
+      "publishedAt": "2025-10-11T09:32:35Z",
+      "content": "Et si revenait le plaisir de cet effort si particulier qui consiste à retrouver une date, un lieu, un nom, un événement, le titre dun film, celui dun livre ? La satisfaction dapprendre, de mémoriser,… [+733 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Hélène Sallon",
+      "title": "Les graines du cèdre sauvage, ou la jeunesse libanaise vue par Myriam Boulos",
+      "description": "La jeunesse libanaise a toujours été au cœur du travail de Myriam Boulos. Une jeunesse debout qui oppose à la violence et au chaos qui l’entoure une furieuse envie de vivre et d’aimer. La photographe de 33 ans est à l’honneur du Planches Contact Festival de D…",
+      "url": "https://www.lemonde.fr/m-le-mag/article/2025/10/11/les-graines-du-cedre-sauvage-ou-la-jeunesse-libanaise-vue-par-myriam-boulos_6645755_4500055.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/02/0/0/1500/1000/1440/960/60/0/2eeebe9_ftp-import-images-1-my5ifo6cvklz-399540-3440226.jpg",
+      "publishedAt": "2025-10-11T09:30:12Z",
+      "content": "Le flash est omniprésent dans la photographie de Myriam Boulos. Comme un révélateur. Deux femmes qui sétreignent, leurs bouches fondues dans un baiser. Les corps et les peaux de jeunes hommes manifes… [+1337 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Marie Pouzadoux",
+      "title": "Du gouvernement Lecornu I à Lecornu II, la semaine où Edouard Philippe a consommé la rupture avec Emmanuel Macron",
+      "description": "L’ancien premier ministre a décidé d’acter en conscience la rupture définitive avec le chef de l’Etat, en brisant le tabou de la démission du président de la République avant 2027.",
+      "url": "https://www.lemonde.fr/politique/article/2025/10/11/du-gouvernement-lecornu-i-a-lecornu-ii-la-semaine-ou-edouard-philippe-a-consomme-la-rupture-avec-emmanuel-macron_6645754_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/6000/4000/1440/960/60/0/911f2ba_upload-1-oh3e47t1tix9-cbi1284027.jpg",
+      "publishedAt": "2025-10-11T09:30:03Z",
+      "content": "Edouard Philippe et Paul Christophe arrivent à Matignon, le 10 octobre 2025. CYRIL BITTON/DIVERGENCE POUR «LE MONDE»\r\nTous les regards se sont tournés vers eux, le temps dun instant. Quand Edouard Ph… [+1648 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Christelle Pellissier",
+      "title": "« Mais pour qui elle se prend ? » : Pourquoi Victoria Beckham n’est (toujours) pas celle que l’on croit",
+      "description": "Snob, morne, écervelée… Victoria Beckham a évolué avec tant d’étiquettes solidement fixées à ses blazers couture qu’on pouvait douter qu’un seul docu-série suffise à toutes les démonter",
+      "url": "https://www.20minutes.fr/arts-stars/television/4178402-20251011-prend-pourquoi-victoria-beckham-toujours-celle-croit",
+      "urlToImage": "https://img.20mn.fr/6RKGKDfmSNuCabIptP5Xlik/1444x920_victoria-beckham-se-livre-sur-son-enfance-sa-carriere-de-spice-girl-et-ses-debuts-de-creatrice-dans-un-docu-serie-sur-netflix",
+      "publishedAt": "2025-10-11T09:17:37Z",
+      "content": "Qui est Victoria Beckham ? Hyper médiatisée depuis la formation des Spice Girls en 1994, Posh na - et cest rien de le dire - jamais été épargnée par la critique. « Je ressens une pression constante c… [+4763 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec agences",
+      "title": "Finn Wolfhard travaille avec son père sur un biopic consacré au groupe des années 80 The Replacements",
+      "description": "La star de « Stranger Things » co-écrira le scénario avec son père Eric",
+      "url": "https://www.20minutes.fr/arts-stars/people/4178333-20251011-finn-wolfhard-travaille-pere-biopic-consacre-groupe-annees-80-the-replacements",
+      "urlToImage": "https://img.20mn.fr/X4wYsc96TrqGTEWrhJb1lyk/1444x920_celebrities-attend-a24-s-the-legend-of-ochi-premier-at-village-east-by-angelika-in-new-york-featuring-finn-wolfhard-where-new-york-city-new-york-united-states-when-15-apr-2025-credit-roger-wong-insta-rimages",
+      "publishedAt": "2025-10-11T09:02:36Z",
+      "content": "Finn Wolfhard se sent décidément bien dans les années 80. Alors que la cinquième et dernière saison de Stranger Things sapprête à débarquer sur Netflix le 26 novembre, lacteur de 22 ans plonge à nouv… [+1293 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "Cancer : la France doit savoir pourquoi elle est surexposée",
+      "description": "L’étude du « Lancet », qui a placé la France en tête des pays les plus touchés, doit servir de signal d’alarme. Qu’un pays développé ignore l’ensemble des causes d’une incidence singulière du cancer n’est pas acceptable.",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/cancer-la-france-doit-savoir-pourquoi-elle-est-surexposee_6645750_3232.html",
+      "urlToImage": "https://img.lemde.fr/2019/07/02/0/0/5568/3712/1440/960/60/0/3f895bf_GLj9J9qSX-xG-XUg9X9ZOwTr.jpg",
+      "publishedAt": "2025-10-11T09:00:15Z",
+      "content": "La bonne nouvelle est que lon meurt de moins en moins souvent du cancer en France. Avec 136,8 décès pour 100 000 en 2023 contre 184,7 en 1990, la tendance reflète les considérables progrès médicaux. … [+3352 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Perrine Mouterde",
+      "title": "Les papillons et les abeilles sauvages toujours plus menacés en Europe",
+      "description": "Plusieurs dizaines de nouvelles espèces risquent la disparition, selon l’Union internationale pour la conservation de la nature, qui vient de mettre à jour sa liste rouge.",
+      "url": "https://www.lemonde.fr/planete/article/2025/10/11/les-papillons-et-les-abeilles-sauvages-toujours-plus-menaces-en-europe_6645749_3244.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/24/0/3758/2505/1440/960/60/0/48f2958_upload-1-lrmaziaf0mmy-000-33n69p2.jpg",
+      "publishedAt": "2025-10-11T09:00:11Z",
+      "content": "Un bourdon (« Bombus pratorum ») et un papillon brun des prés (« Maniola jurtina ») butinent des fleurs à Rennes, le 7 juillet 2023. DAMIEN MEYER / AFP\r\nPrès dune centaine de nouvelles espèces dabeil… [+1419 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Célien Milioni-Brunet",
+      "title": "Le skateboard street, de la rue à Roland-Garros",
+      "description": "Le temple du tennis français accueille pour la première fois, samedi, une étape de la Street League Skateboarding, une compétition internationale. Cette implantation inédite traduit l’enthousiasme grandissant des amateurs de sport pour la discipline.",
+      "url": "https://www.lemonde.fr/sport/article/2025/10/11/le-skateboard-street-de-la-rue-a-roland-garros_6645751_3242.html",
+      "urlToImage": "https://img.lemde.fr/2024/07/24/0/0/6000/4000/1440/960/60/0/1d3323c_5156076-01-06.jpg",
+      "publishedAt": "2025-10-11T09:00:08Z",
+      "content": "Le Français Aurélien Giraud, lors des entraînements de skateboard street aux Jeux olympiques de Paris 2024, sur la place de la Concorde, à Paris, le 23 juin 2024. JEFF PACHOUD / AFP\r\nAu stade Roland-… [+4434 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Philippe Mesmer",
+      "title": "Au Japon, les chances de Sanae Takaichi de devenir première ministre s’affaiblissent",
+      "description": "Le parti Komei a quitté la coalition au motif que la nouvelle présidente du Parti libéral-démocrate n’acceptait pas « pleinement » un meilleur encadrement des financements politiques.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/au-japon-les-chances-de-sanae-takaichi-de-devenir-premiere-ministre-s-affaiblissent_6645748_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/70/3828/2552/1440/960/60/0/4350f9f_ftp-import-images-1-p5oar3is81qk-2025-10-10t103355z-944382885-rc2y8ha1mrjo-rtrmadp-3-japan-politics-komeito.JPG",
+      "publishedAt": "2025-10-11T08:36:06Z",
+      "content": "Sanae Takaichi, présidente du Parti libéral-démocrate, après une réunion avec des représentants du parti Komei, à Tokyo, le 10 octobre 2025. KYODO / VIA REUTERS\r\nLe parti Komei a mis fin à sa coopéra… [+1254 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Christophe Séfrin",
+      "title": "Cuisine : Avec « Crispi » de Ninja, notre air fryer est-il déjà démodé ?",
+      "description": "Un concurrent sérieux au classique air fryer est arrivé dans les rayons",
+      "url": "https://www.20minutes.fr/tempo/food/4178495-20251011-cuisine-crispi-ninja-air-fryer-deja-demode",
+      "urlToImage": "https://img.20mn.fr/W0ulZ18oTIWcjx1-aLxOpik/1444x920_crispi-de-ninja-un-air-fryer-qui-ne-dit-pas-tout-a-fait-son-nom",
+      "publishedAt": "2025-10-11T08:32:36Z",
+      "content": "Le triomphal air fryer a-t-il déjà trouvé son successeur ? Avec Crispi, la marque Ninja lance dans nos cuisines un nouvel appareil qui sinspire des codes de la fameuse « friteuse sans huile » sur laq… [+4356 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Marie Jégo",
+      "title": "Vladimir Poutine tente de maintenir l’influence russe en Asie centrale",
+      "description": "Alors que la Chine et les pays européens prennent une part croissante dans les échanges de la région, le président russe a effectué une visite d’Etat au Tadjikistan, où s’est aussi tenue une réunion de la Communauté des Etats indépendants.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/vladimir-poutine-tente-de-maintenir-l-influence-russe-en-asie-centrale_6645747_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/11/0/0/3547/2364/1440/960/60/0/28ede10_upload-1-hgwepewhfv2f-000-78cg2b3.jpg",
+      "publishedAt": "2025-10-11T08:29:29Z",
+      "content": "Photo diffusée par lagence dEtat russe Sputnik, du président russe, Vladimir Poutine, assistant à une réunion du Conseil des chefs dEtat de la Communauté des Etats indépendants (CEI), à Douchanbé, le… [+1300 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Violaine Morin",
+      "title": "A la convention citoyenne sur les temps de l’enfant, des ados unanimes contre les journées trop longues",
+      "description": "Le Conseil économique, social et environnemental, qui organise depuis juillet la convention citoyenne sur les temps de l’enfant, réunissait du 8 au 10 octobre un panel de jeunes venus de toute la France pour dresser le même constat : la journée d’un ado, c’es…",
+      "url": "https://www.lemonde.fr/societe/article/2025/10/11/a-la-convention-citoyenne-sur-les-temps-de-l-enfant-des-ados-unanimes-contre-les-journees-trop-longues_6645746_3224.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/5689/3793/1440/960/60/0/4e96ee1_upload-1-4doza839frlx-000-636r8rb.jpg",
+      "publishedAt": "2025-10-11T08:18:12Z",
+      "content": "Le président du Conseil économique, social et environnemental, Thierry Beaudet, lors du lancement de la convention citoyenne sur les temps de lenfant, à Paris, le 20 juin 2025. ALAIN JOCARD/AFP\r\nDans… [+1436 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Camille Allain",
+      "title": "« Ce n’est pas du flicage »… Pourquoi les déchetteries contrôlent de plus en plus les entrées",
+      "description": "De plus en plus de collectivités imposent une carte restreignant l’accès à leurs sites de tri des déchets",
+      "url": "https://www.20minutes.fr/planete/4178506-20251011-flicage-pourquoi-dechetteries-controlent-plus-plus-entrees",
+      "urlToImage": "https://img.20mn.fr/Kd6lHDGSSnW18JCDMidmIyk/1444x920_certaines-dechetteries-controlent-leurs-acces-afin-de-distinguer-les-particuliers-des-professionnels-qui-doivent-payer-pour-leurs-dechets",
+      "publishedAt": "2025-10-11T08:17:36Z",
+      "content": "Appelez ça un pass, une carte, un titre daccès ou un badge. Appelez donc ça comme vous voulez mais surtout, veillez à ne pas loublier, sous peine de devoir faire demi-tour. Et quand on doit manuvrer … [+4822 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Philippe Mesmer, Harold Thibault",
+      "title": "En Corée du Nord, le 80ᵉ anniversaire du Parti du travail illustre le retour de Pyongyang sur la scène diplomatique mondiale",
+      "description": "La Corée du Nord a organisé deux jours de festivités pour le 80e anniversaire du Parti du travail au pouvoir. Les célébrations se sont déroulées en présence de dignitaires étrangers, notamment chinois et russe, illustrant le retour de Pyongyang dans le jeu di…",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/en-coree-du-nord-le-80-anniversaire-du-parti-du-travail-illustre-le-retour-de-pyongyang-sur-la-scene-diplomatique-mondiale_6645745_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/8150/5433/1440/960/60/0/efbf285_ftp-import-images-1-2kyk6sotwofd-5127422-01-06.jpg",
+      "publishedAt": "2025-10-11T08:14:46Z",
+      "content": "Le dirigeant nord-coréen Kim Jong-un, à Pyongyang, lors du 80 anniversaire du Parti du travail de Corée, le 9 octobre 2025. STR / AFP\r\nDes milliers de militaires ont paradé place Kim-Il-sung, à Pyong… [+1203 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec agences",
+      "title": "Martin Scorsese était bien parti pour devenir prêtre avant de se faire virer du séminaire",
+      "description": "Le réalisateur a été renvoyé de son école préparatoire au sacerdoce pour mauvaise conduite",
+      "url": "https://www.20minutes.fr/arts-stars/people/4178329-20251011-martin-scorsese-bien-parti-devenir-pretre-avant-faire-virer-seminaire",
+      "urlToImage": "https://img.20mn.fr/RaGmFtigRjWy9QFddXaKlSk/1444x920_apple-tv-documentary-series-of-mr-scorsese-at-alice-tully-hall-featuring-martin-scorsese-where-new-york-new-york-united-states-when-04-oct-2025-credit-marion-curtis-starpix-for-apple-tv-insta-rimages",
+      "publishedAt": "2025-10-11T08:02:36Z",
+      "content": "Martin Scorsese aurait pu finir en soutane plutôt que derrière une caméra. Dans un nouveau documentaire intitulé Mr. Scorsese et signé Rebecca Miller, lequel a été présenté au New York Film Festival … [+1466 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Christelle Pellissier",
+      "title": "De Jenna Ortega à Lola Young : L’esthétique gothique sort de l’ombre et s’impose comme la tendance star de l’automne",
+      "description": "Des podiums aux séries TV, tous les voyants sont au vert pour replacer le noir au centre de la scène mode",
+      "url": "https://www.20minutes.fr/tempo/style/4177480-20251011-jenna-ortega-lola-young-esthetique-gothique-sort-ombre-impose-comme-tendance-star-automne",
+      "urlToImage": "https://img.20mn.fr/TRf0JCAwT6uAAKSNIVuiGSk/1444x920_actress-jenna-ortega-attends-the-wednesday-season-2-netflix-show-listening-party-at-guastavino-s-on-thursday-august-28-2025-in-new-york-city-photo-by-peter-foley-upi-photo-via-newscom-upiphotosthree092720-upi-newscom-sipa-2508290646",
+      "publishedAt": "2025-10-11T08:02:36Z",
+      "content": "Lautomne sera sombre, et la mort annoncée (et confirmée) du dernier gouvernement ny est - cette fois - pour rien. Lactrice américaine Jenna Ortega nest en revanche pas étrangère au retour de cette es… [+4146 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Guillemette Faure",
+      "title": "« Ma mère me laisse vendre ses affaires mais me prend la moitié de l’argent » : quand la revente sur Vinted devient la principale source de revenus des ados",
+      "description": "Dans sa chronique, Guillemette Faure met en lumière les transformations invisibles de notre époque. Cette semaine, les ados qui revendent en ligne les vêtements qu’ils ont sous la main pour arrondir leur argent de poche.",
+      "url": "https://www.lemonde.fr/m-le-mag/article/2025/10/11/ma-mere-me-laisse-vendre-ses-affaires-mais-me-prend-la-moitie-de-l-argent-quand-la-revente-sur-vinted-devient-la-principale-source-de-revenus-des-ados_6645744_4500055.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/07/1883/0/4520/3013/1440/960/60/0/1f69d9c_upload-1-hqvboc5dyokb-034-6173892.jpg",
+      "publishedAt": "2025-10-11T08:00:22Z",
+      "content": "Retrouvez ici toutes les chroniques « On ne lavait pas vu venir ».\r\nImpossible de mettre la main sur un baby-sitter ? Rien détonnant avec tous ces ados trop occupés, absorbés par une autre activité :… [+1638 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Laurence Girard",
+      "title": "Matières premières : « Après de fortes turbulences, une bouffée d’oxygène pour le poulet de plein air »",
+      "description": "Après avoir souffert, ces dernières années, de l’envolée des cours du blé et de l’inflation, le gallinacé labellisé retrouve le chemin des assiettes, note dans sa chronique Laurence Girard, journaliste économique au « Monde ».",
+      "url": "https://www.lemonde.fr/economie/article/2025/10/11/matieres-premieres-apres-de-fortes-turbulences-une-bouffee-d-oxygene-pour-le-poulet-de-plein-air_6645743_3234.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/7999/5333/1440/960/60/0/9748cbd_upload-1-7ivt2yr665qk-000-77mb2ke.jpg",
+      "publishedAt": "2025-10-11T08:00:18Z",
+      "content": "La belle vie du poulet labellisé. Elevé en plein air, voire en liberté, le gallinacé est relativement chouchouté. Même si sa vie sera, de toute façon, de courte durée avant dêtre embroché. Concurrenc… [+1928 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Isabelle Curien-Barrès, Fabienne Maillebouis, Inmaculada Serna",
+      "title": "« Interdisons véritablement la présence physique des portables dans les établissements scolaires »",
+      "description": "Dans une tribune au « Monde », les fondatrices de l’association Pour un droit à une scolarité libre de numérique défendent une école sans portables ni objets connectés, une condition essentielle pour en faire « un lieu privilégié qui protège nos enfants et fa…",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/interdisons-veritablement-la-presence-physique-des-portables-dans-les-etablissements-scolaires_6645742_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/06/13/0/0/3000/2000/1440/960/60/0/07a49d2_upload-1-fkl6d5xv8xm0-frame-1045.jpg",
+      "publishedAt": "2025-10-11T08:00:13Z",
+      "content": "Inauguré à la rentrée scolaire, le dispositif « Portable en pause » a déçu beaucoup de familles. Pourtant ce dispositif, en prévoyant une année scolaire sans la présence physique des téléphones dans … [+1821 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Mickaël Launay",
+      "title": "Le code, l’énigme maths du « Monde » n° 72",
+      "description": "Mickaël Launay vous invite à un jeu de patience dans lequel décaler les chiffres est plus difficile que les additionner.",
+      "url": "https://www.lemonde.fr/sciences/article/2025/10/11/le-code-l-enigme-maths-du-monde-n-72_6645741_1650684.html",
+      "urlToImage": "https://img.lemde.fr/2024/02/14/0/0/3000/2000/1440/960/60/0/167edfd_1707922503333-image.png",
+      "publishedAt": "2025-10-11T08:00:09Z",
+      "content": "Le code est un nombre entier qui peut sobtenir en faisant une addition et cette addition a deux propriétés. Premièrement, tous les chiffres des nombres additionnés sont différents. Cest le cas, par e… [+570 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Murielle Joudet",
+      "title": "« One to One : John & Yoko », nouvelle plongée dans le couple Lennon-Ono",
+      "description": "Dans le documentaire, le réalisateur Kevin Macdonald se focalise sur la période qui court de fin 1971 à 1973, le moment où le couple quitte Londres pour s’établir à New York et est bien décidé à participer à la vie politique de leur pays d’adoption.",
+      "url": "https://www.lemonde.fr/culture/article/2025/10/11/one-to-one-john-yoko-nouvelle-plongee-dans-le-couple-lennon-ono_6645740_3246.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/970/646/1440/960/60/0/18b4fe4_upload-1-j2saatqpvh9u-7dc3b97604f48eb33cbad254df57565d.jpeg",
+      "publishedAt": "2025-10-11T08:00:05Z",
+      "content": "John Lennon et Yoko Ono dans le documentaire « One To One : John &amp; Yoko », de Kevin Macdonald. BIENNALE DE VENISE\r\nLAVIS DU « MONDE » À VOIR\r\nQue restait-il à dire et à montrer sur John Lennon et… [+1176 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, Sébastien Lecornu premier ministre : Bruno Retailleau et Gérard Larcher se disent défavorables à la participation de LR au gouvernement",
+      "description": "Les deux responsables des Républicains ont dit, lors d’une réunion des parlementaires du parti de droite, samedi, préférer se tenir à l’écart de l’équipe que M. Lecornu est en train de constituer.",
+      "url": "https://www.lemonde.fr/politique/live/2025/10/11/en-direct-sebastien-lecornu-premier-ministre-bruno-retailleau-et-gerard-larcher-se-disent-defavorables-a-la-participation-de-lr-au-gouvernement_6645554_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/05/18/0/0/5583/2791/1440/720/60/0/ae9df05_ftp-import-images-1-hj3yvczceikm-5943214-01-06.jpg",
+      "publishedAt": "2025-10-11T07:51:59Z",
+      "content": "Invité de Franceinfo samedi matin, Hervé Marseille, président de lUnion des démocrates et indépendants (UDI) et président du groupe Union centriste au Sénat, a estimé que renommer Sébastien Lecornu n… [+1044 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Natation : Léon Marchand battu par Kos sur 200 m dos pour débuter la Coupe du monde en petit bassin",
+      "description": "Reprise difficile pour le quadruple médaillé olympique",
+      "url": "https://www.20minutes.fr/sport/jo_2024/4178669-20251011-natation-leon-marchand-battu-kos-200-dos-debuter-coupe-monde-petit-bassin",
+      "urlToImage": "https://img.20mn.fr/RLFevnKAQ0-f1xpAF1G0PCk/1444x920_leon-marchand-of-france-competes-in-the-men-s-400-meter-individual-medley-final-at-the-world-aquatics-championships-in-singapore-sunday-aug-3-2025-ap-photo-vincent-thian-arx227-25215441685436-2508031712",
+      "publishedAt": "2025-10-11T07:42:40Z",
+      "content": "Le Français Léon Marchand a été battu par son compagnon dentraînement hongrois Hubert Kos sur 200 m dos en ouverture de la Coupe du monde en petit bassin, vendredi à Carmel (Etats-Unis).\r\nMarchand a … [+1396 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Equipe de France : Kylian Mbappé forfait pour le déplacement en Islande",
+      "description": "Après avoir ouvert le score vendredi contre l’Azerbaïdjan, il a été touché une première fois à sa cheville droite endolorie, et une seconde fois en fin de match",
+      "url": "https://www.20minutes.fr/sport/football/4178668-20251011-equipe-france-kylian-mbappe-forfait-deplacement-islande",
+      "urlToImage": "https://img.20mn.fr/nYRA99HnTfKuI2VA_Pnndik/1444x920_kylian-mbappe-of-france-looks-injured-during-the-fifa-world-cup-2026-qualifiers-group-d-football-match-between-france-and-azerbaijan-on-10-october-2025-at-parc-des-princes-stadium-in-paris-france-photo-matthieu-mirville-dppi-photo-by-matthieu-mirville-dppi-via-afp",
+      "publishedAt": "2025-10-11T07:38:56Z",
+      "content": "Le capitaine des Bleus Kylian Mbappé, à nouveau touché à la cheville droite contre lAzerbaïdjan, est forfait pour le déplacement en Islande, a annoncé dans la nuit de vendredi à samedi lencadrement d… [+2214 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Brice Pedroletti",
+      "title": "En Indonésie, la participation au plan de paix de Donald Trump fait débat",
+      "description": "Les milieux islamistes les plus conservateurs expriment des doutes face aux positions perçues comme ambiguës du président indonésien, Prabowo Subianto.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/en-indonesie-la-participation-au-plan-de-paix-de-donald-trump-fait-debat_6645738_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/09/23/0/0/8253/5502/1440/960/60/0/66265e3_ftp-import-images-1-hglpkl5pw4bp-64e2029222f84e60bcb409db659448a0-0-cd37bc84d4724ed382d69a42ada350a4.jpg",
+      "publishedAt": "2025-10-11T07:37:51Z",
+      "content": "Le président indonésien Prabowo Subianto sadresse à la 80 session de lAssemblée générale des Nations unies, mardi 23 septembre 2025. YUKI IWAMURA / AP\r\nPremier pays musulman au monde, lIndonésie comp… [+1568 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Liban : le président dénonce des frappes nocturnes israéliennes ayant fait un mort",
+      "description": "Israël confirme avoir mené des attaques sur « des infrastructures terroristes »",
+      "url": "https://www.20minutes.fr/monde/israel/4178665-20251011-liban-president-denonce-frappes-nocturnes-israeliennes-fait-mort",
+      "urlToImage": "https://img.20mn.fr/gYErUuIfQGOCm5LyOMJUJCk/1444x920_251006-nabatieh-lebanon-oct-6-2025-xinhua-people-inspect-the-wreckage-of-a-vehicle-struck-by-missiles-fired-by-israeli-forces-in-nabatieh-southern-lebanon-on-oct-6-2025-an-israeli-airstrike-on-southern-lebanon-killed-two-people-and-wounded-another-on-monday-the-state-run-national-news-agency-nna-reported-the-nna-said-israeli-forces-fired-two-guided-missiles-at-a-vehicle-in-nabatieh-killing-hassan-atwi-and-his-wife-zeinab-raslan-whom-it-described-as-civilians-the-couple-had-lost-their-two-children-earlier-in-the-war-with-israel-photo-by-taher-abu-hamdan-xinhua-taher-abu-hamdan-chinenouvelle-cmxztp-e000058-20251007-pepfn0a001-credit-chine-nouvelle-sipa-2510070753",
+      "publishedAt": "2025-10-11T07:27:05Z",
+      "content": "Le président libanais Joseph Aoun a dénoncé ce samedi des frappes nocturnes contre des « installations civiles » dans le sud du pays ayant fait, selon le ministère de la Santé, un mort et sept blessé… [+1193 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Laure Stephan",
+      "title": "A Gaza, le retour massif des déplacés dans le nord de l’enclave dans un paysage de ruines",
+      "description": "Près de 200 000 Palestiniens étaient revenus dans le nord de la bande de Gaza, vendredi soir, selon la défense civile du territoire.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/a-gaza-le-retour-massif-des-deplaces-dans-le-nord-de-l-enclave-dans-un-paysage-de-ruines_6645737_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/9/0/5500/3666/1440/960/60/0/f2f5135_ftp-import-images-1-7rru09u7pp5w-2025-10-10t130047z-1366895486-rc2z8ha99qc1-rtrmadp-3-israel-palestinians-gaza.JPG",
+      "publishedAt": "2025-10-11T07:27:01Z",
+      "content": "Des Palestiniens retournent dans le nord de la bande de Gaza après lentrée en vigueur dun cessez-le-feu entre Israël et le Hamas dans lenclave, le 10 octobre 2025. MAHMOUD ISSA / REUTERS\r\nAyman est u… [+1458 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "Budget 2026 : le calendrier contraint que doit respecter Sébastien Lecornu pour éviter une loi spéciale",
+      "description": "Le premier ministre dispose de très peu de temps pour constituer son gouvernement et déposer à l’Assemblée nationale un projet de loi de finances.",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2025/10/11/budget-2026-le-calendrier-contraint-que-doit-respecter-sebastien-lecornu-pour-eviter-une-loi-speciale_6645736_4355770.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/7998/5332/1440/960/60/0/932e6bf_ftp-import-images-1-wmhg0fzor2ho-5134354-01-06.jpg",
+      "publishedAt": "2025-10-11T07:16:04Z",
+      "content": "La phase dexamen du PLF est ouverte. En première lecture, les députés ont pour mission de discuter puis de voter la première partie du projet, consacrée aux ressources et à léquilibre du PLF. Ils doi… [+904 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Joëlle Gayot",
+      "title": "Au Théâtre du Châtelet, l’impitoyable lucidité de « Hamlet/Fantômes »",
+      "description": "Kirill Serebrennikov, auteur, metteur en scène, scénographe et costumier, est à l’origine d’une très libre variation autour de la pièce de William Shakespeare.",
+      "url": "https://www.lemonde.fr/culture/article/2025/10/11/au-theatre-du-chatelet-l-impitoyable-lucidite-de-hamlet-fantomes_6645735_3246.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/463/0/5132/3421/1440/960/60/0/23e6fd9_upload-1-kh41a8kvpdsu-shalva-nikvashvili-judith-chemla-hamlet-fantoi-mes-a-vahid-amanpour-thei-ai-tre-du-chai-telet.jpg",
+      "publishedAt": "2025-10-11T07:00:10Z",
+      "content": "Judith Chemla dans « Hamlet/Fantomes », au Théâtre du Châtelet, à Paris, en septembre 2025. VAHID AMANPOUR/THEATRE DU CHATELET\r\nDes envies de fuite et soudain, sans prévenir, la vigilance est décuplé… [+1149 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Bertrand Bissuel",
+      "title": "Réforme des retraites : ce que le chef de l’Etat a proposé aux partis",
+      "description": "La gauche a jugé décevantes les esquisses de concessions sur la réforme, pourtant inédites. Emmanuel Macron avait érigé le texte en totem de son second quinquennat.",
+      "url": "https://www.lemonde.fr/politique/article/2025/10/11/reforme-des-retraites-ce-que-le-chef-de-l-etat-a-concede-aux-partis_6645734_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/11/9/0/2066/1377/1440/960/60/0/b2da913_upload-1-g8la5ott2eiq-afp.png",
+      "publishedAt": "2025-10-11T06:54:24Z",
+      "content": "Un manifestant porte un placard sur lequel est écrit « Non à la retraite à 64 ans », lors dune manifestation à Rennes, le 2 octobre 2025. DAMIEN MEYER/AFP\r\nLes uns parlent de décalage, les autres de … [+1360 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Bruno Lesprit",
+      "title": "Au festival C’est dans la Vallée, Patricia Kaas, invitée surprise",
+      "description": "La chanteuse mosellane est devenue la reine du Dreyeckland, le 10 octobre, lors d’une soirée germanophile organisée par le compositeur et chanteur Rodolphe Burger, à Sainte-Marie-aux-Mines (Haut-Rhin).",
+      "url": "https://www.lemonde.fr/culture/article/2025/10/11/au-festival-c-est-dans-la-vallee-patricia-kaas-invitee-surprise_6645733_3246.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/11/57/0/4326/2884/1440/960/60/0/a4fb432_upload-1-bvj4fzue40mk-4-10-octobre-2025-a-patricia-kaas-et-rodolphe-burger-au-festival-ca-est-dans-la-vallei-e-au-thei-ai-tre-de-sainte-marie-aux-mines-pour-la-soirei-e-winterreise-crei-dit-photo-couleur-ben-pi.jpeg",
+      "publishedAt": "2025-10-11T06:42:41Z",
+      "content": "Patricia Kaas et Rodolphe Burger au Festival Cest dans la vallee, au Theatre municipal de Sainte-Marie-aux-Mines (Haut-Rhin), pour la soiree Winterreise, le 10 octobre 2025. BEN PI\r\nDreyeckland litté… [+1385 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Manon Minaca",
+      "title": "Les champignons disparaissent, voilà pourquoi ça sent pas bon (et pas seulement pour votre cueillette)",
+      "description": "Selon les chiffres de l’Union internationale pour la conservation de la nature, qui édite la liste rouge des espèces menacées, près d’un tiers des espèces de champignons recensées sont menacées d’extinction",
+      "url": "https://www.20minutes.fr/planete/4177927-20251011-champignons-disparaissent-voila-pourquoi-ca-sent-bon-seulement-cueillette",
+      "urlToImage": "https://img.20mn.fr/5KgeUOaBTcqRqd6LGCuz1yk/1444x920_07-october-2025-baden-wurttemberg-rottweil-mushrooms-grow-in-a-wooded-area-covered-in-moss-photo-silas-stein-dpa-urn-newsml-dpa-com-20090101-251007-99-262181-silas-stein-dpa-sipa-2510071727",
+      "publishedAt": "2025-10-11T06:37:36Z",
+      "content": "Si automne rime avec pluie, froid et grisaille pour bon nombre dentre nous, certains lattendent avec impatience : les cueilleurs de champignons. Armés de leurs bottes en caoutchouc et de leur panier … [+5790 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Antonin Bergeaud",
+      "title": "« Si l’UE ne maîtrise pas les technologies qu’elle veut encadrer, elle deviendra une commentatrice impuissante »",
+      "description": "En assumant ses valeurs, l’Europe prouvera qu’entre le modèle américain et le modèle chinois, il existe une autre voie, assure, dans une tribune au « Monde », l’économiste Antonin Bergeaud, Prix du meilleur jeune économiste 2025.",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/si-l-ue-ne-maitrise-pas-les-technologies-qu-elle-veut-encadrer-elle-deviendra-une-commentatrice-impuissante_6645732_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/03/0/0/1500/1000/1440/960/60/0/10489cb_upload-1-pvywbg42uetn-frame-1370.jpg",
+      "publishedAt": "2025-10-11T06:25:00Z",
+      "content": "Le rapport Draghi[sur léconomie européenne] a fêté son premier anniversaire il y a quelques jours, loccasion de rappeler le constat amer dun décrochage européen, qui semble désormais inexorable. Mari… [+2412 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Isabelle Saint-Jean",
+      "title": "Isabelle Saint-Jean : « Atteindre les objectifs de souveraineté ne peut être possible sans coordination internationale »",
+      "description": "A l’heure où des grandes puissances optent pour l’isolationnisme, rétablir une coopération entre pays apparaît urgent, notamment pour l’Union européenne, plaide l’économiste dans une tribune au « Monde ».",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/isabelle-saint-jean-atteindre-les-objectifs-de-souverainete-ne-peut-etre-possible-sans-coordination-internationale_6645731_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/03/0/0/1500/1000/1440/960/60/0/10489cb_upload-1-pvywbg42uetn-frame-1370.jpg",
+      "publishedAt": "2025-10-11T06:23:11Z",
+      "content": "Montée des tensions géopolitiques, guerre commerciale, la situation internationale incite à nous interroger sur les bénéfices de la mondialisation. Les institutions mises en place après la seconde gu… [+2231 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Etats-Unis : Trump est en « excellente santé », selon son bulletin médical",
+      "description": "Durant cet examen, il a été établi que son âge cardiaque était « d’environ 14 ans plus jeune que son âge chronologique », indique le bulletin de santé transmis par sa porte-parole",
+      "url": "https://www.20minutes.fr/monde/4178663-20251011-etats-unis-trump-excellente-sante-selon-bulletin-medical",
+      "urlToImage": "https://img.20mn.fr/mdrVxPa7Q_GyjpKOrtmNaik/1444x920_us-president-donald-trump-gestures-as-he-walks-on-the-south-lawn-of-the-white-house-upon-returning-from-walter-reed-national-military-medical-center-after-a-medical-checkup-on-october-10-2025-in-washington-dc-photo-by-saul-loeb-afp",
+      "publishedAt": "2025-10-11T06:11:02Z",
+      "content": "Donald Trump est « en excellente santé », peut-on lire sur le bulletin médical du président américain, publié vendredi après une visite de routine.\r\nAgé de 79 ans, le républicain a effectué sa deuxiè… [+1929 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Le Qatar va installer des avions de combat F-15 de son armée sur une base militaire américaine de l’Idaho",
+      "description": "L’annonce intervient peu après un décret de Donald Trump promettant de défendre cet Etat du Golfe contre des attaques, dans le sillage des frappes aériennes israéliennes visant le chef du Hamas à Doha.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/le-qatar-va-installer-des-avions-de-combat-f-15-de-son-armee-sur-une-base-militaire-americaine-de-l-idaho_6645730_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/3987/2658/1440/960/60/0/1fa1280_ftp-import-images-1-xnrfarpsutza-5131868-01-06.jpg",
+      "publishedAt": "2025-10-11T06:04:02Z",
+      "content": "Le ministre de la défense du Qatar, Sheikh Saoud Al Thani, et le secrétaire dEtat à la défense américain, Pete Hegseth, au Pentagone, vendredi 10 octobre 2025. JOHN MCDONNELL / AFP\r\nLes Etats-Unis et… [+2930 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "L.G., M.B. et M.M. avec AFP",
+      "title": "EN DIRECT Reconduction du Premier ministre : Les Républicains ont tranché, et ne participeront pas au gouvernement…",
+      "description": "Suivez avec nous les dernières informations politiques après l’annonce, vendredi soir, de la reconduction de Sébastien Lecornu au poste de Premier ministre",
+      "url": "https://www.20minutes.fr/politique/4178643-20251011-direct-reconduction-premier-ministre-retour-matignon-lecornu-retrouve-deja-menace-censure",
+      "urlToImage": "https://img.20mn.fr/BNWvFyBTT8OxOkhRpIUc2ik/1444x920_france-s-outgoing-interior-minister-bruno-retailleau-leaves-the-meeting-surrounded-by-bodyguards-security-service-meeting-at-the-headquarters-of-the-les-republicains-lr-right-wing-political-party-on-place-du-palais-bourbon-national-assembly-following-the-announcement-of-the-resignation-of-the-prime-minister-head-of-the-french-government-in-paris-france-on-october-6-2025-photo-by-amaury-cornu-hans-lucas-via-afp",
+      "publishedAt": "2025-10-11T06:00:09Z",
+      "content": "Lurgente question qui se pose pour Sébastien Lecornu, est de savoir qui va sasseoir à la table du Conseil des ministres dès lundi pour la présentation du projet de budget 2026, dont lexamen au Parlem… [+1061 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "E.M.",
+      "title": "Lyon : Une boulangerie rasée pour l’aménagement d’une piste cyclable ?",
+      "description": "Selon les gérants, la boulangerie Maison Paneo, située à Bron près de Lyon, est menacée d’expropriation en raison d’un projet d’aménagement de piste cyclable par la métropole",
+      "url": "https://www.20minutes.fr/societe/4178450-20251011-lyon-boulangerie-rasee-amenagement-piste-cyclable",
+      "urlToImage": "https://img.20mn.fr/ozpzgRC0Qh-tWBIE8g8bXSk/1444x920_08-04-2022-photo-illustration-piste-cyclable-dans-la-ville-de-lyon-08-04-2022-photo-illustration-cycle-path-in-the-city-of-lyon-doucelinromain-1831-00212-2204141356-credit-romain-doucelin-sipa-2204141406",
+      "publishedAt": "2025-10-11T05:32:36Z",
+      "content": "La boulangerie Maison Paneo, située à Bron, près de Lyon, est menacée de fermeture à cause de la création dune voie de bus et dune piste cyclable, a déploré son propriétaire auprès de BFM TV. Le proj… [+2281 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "Frédéric Henry pour 20 Minutes",
+      "title": "Un enfant a-t-il causé 70.000 euros de dégâts chez lui parce que sa mère lui a confisqué son téléphone ?",
+      "description": "Selon un contenu TikTok, la confiscation d’un smartphone aurait coûté très cher à une mère de famille. Une vieille infox recyclée",
+      "url": "https://www.20minutes.fr/societe/4178364-20251011-enfant-cause-70-000-euros-degats-chez-parce-mere-confisque-telephone",
+      "urlToImage": "https://img.20mn.fr/5eJnLQ10SwepD7CHR9HO0Ck/1444x920_stress-anxiete-ou-colere-la-meditation-de-pleine-conscience-vient-a-bout-de-bien-des-maux-chez-nos-ados",
+      "publishedAt": "2025-10-11T05:02:37Z",
+      "content": "«Cette maman travailleuse confisque le téléphone de son fils, mais sa réaction va détruire sa vie et lui coûter une fortune quelle na pas. » Ces mots lancent une vidéo TikTok vue par plus dun demi-mi… [+3854 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Nicolas Valeano",
+      "title": "Le long chemin des marques automobiles françaises pour séduire les cadres",
+      "description": "Très populaires dans les flottes d’entreprise pour les citadines et les petites familiales, les constructeurs français trouvent sur leur route des marques étrangères premium bien établies dès qu’il s’agit de toucher les manageurs et les professions libérales.",
+      "url": "https://www.lemonde.fr/economie/article/2025/10/11/le-long-chemin-des-marques-automobiles-francaises-pour-seduire-les-cadres_6645728_3234.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/05/0/0/6493/4329/1440/960/60/0/f5fdda2_upload-1-dgg4dnqiuk6l-000-48bv4rh.jpg",
+      "publishedAt": "2025-10-11T05:00:12Z",
+      "content": "CÉLIA CALLOIS\r\nQuatre Renault et quatre Peugeot Avec huit places dans le top 10 des modèles (dont les sept premières !), les marques automobiles tricolores règnent sur le marché français des véhicule… [+1487 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Célien Milioni-Brunet",
+      "title": "Que sont devenus les modules de skateboard des Jeux de Paris 2024 promis à la Seine-Saint-Denis ?",
+      "description": "Le département francilien comptait réinstaller à Noisy-le-Sec et à La Courneuve, avant la fin 2025, certaines structures de skateboard street des JO. Retardé, le projet est désormais prévu pour 2027.",
+      "url": "https://www.lemonde.fr/sport/article/2025/10/11/que-sont-devenus-les-modules-de-skateboard-des-jeux-de-paris-2024-promis-a-la-seine-saint-denis_6645727_3242.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/7398/4932/1440/960/60/0/72e4444_upload-1-hwecdbge0sin-000-36792t2.jpg",
+      "publishedAt": "2025-10-11T05:00:10Z",
+      "content": "LAméricain Nyjah Huston, lors des épreuves masculines de se street skateboard des JO, à Paris, le 29 juillet 2024. KIRILL KUDRYAVTSEV / AFP\r\nLes épreuves de skateboard street des Jeux olympiques de P… [+1123 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Lucas Minisini",
+      "title": "En Albanie, l’OPA du clan Trump sur l’île de Sazan",
+      "description": "Avant-poste militaire au temps de la guerre froide, cette île de Méditerranée à la végétation luxuriante et aux eaux turquoise a longtemps été laissée à l’abandon. Mais son potentiel touristique n’a pas échappé à Jared Kushner. Fort de ses réseaux d’influence…",
+      "url": "https://www.lemonde.fr/m-le-mag/article/2025/10/11/en-albanie-l-opa-du-clan-trump-sur-l-ile-de-sazan_6645725_4500055.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/03/103/0/1500/1000/1440/960/60/0/c07afa7_ftp-import-images-1-19wndusxvo4n-399950-3440053.jpg",
+      "publishedAt": "2025-10-11T04:30:10Z",
+      "content": "Musique à fond et moteur hurlant, le Black-Pearl se rapproche à toute vitesse de lîle de Sazan, à 18 kilomètres des côtes de lAlbanie. Mercredi 10 septembre, vers 11 heures, le bateau de deux étages … [+1493 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Mariama Darame, Nathalie Segaunes",
+      "title": "Emmanuel Macron maintient Sébastien Lecornu à Matignon, malgré l’hostilité de l’ensemble de la classe politique",
+      "description": "La renomination de l’ancien ministre des armées pour former un « gouvernement de mission » qui sera « déconnecté des ambitions présidentielles », a ravivé les critiques à l’encontre du chef de l’Etat, accusé de persévérer dans le déni par les oppositions mais…",
+      "url": "https://www.lemonde.fr/politique/article/2025/10/11/emmanuel-macron-maintient-sebastien-lecornu-a-matignon-malgre-l-hostilite-de-l-ensemble-de-la-classe-politique_6645724_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/3063/2042/1440/960/60/0/59b6415_ftp-import-images-1-sxckdiojlvw5-5134336-01-06.jpg",
+      "publishedAt": "2025-10-11T04:15:09Z",
+      "content": "Sébastien Lecornu, à Paris, le 6 octobre 2025. STEPHANE MAHE / AFP\r\nDémissionnaire le lundi, remissionné le vendredi. Quatre jours après avoir accepté sa démission, Emmanuel Macron a choisi de recond… [+1171 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, reconduction de Sébastien Lecornu : le premier ministre doit s’atteler à la composition d’un nouveau gouvernement déjà menacé par la censure",
+      "description": "« J’accepte – par devoir – la mission qui m’est confiée par le président », a déclaré M. Lecornu après avoir été nommé de nouveau premier ministre, vendredi soir. La France insoumise et le Rassemblement national ont déjà annoncé qu’ils censureront le prochain…",
+      "url": "https://www.lemonde.fr/politique/live/2025/10/11/en-direct-reconduction-de-sebastien-lecornu-le-premier-ministre-doit-s-atteler-a-la-composition-d-un-nouveau-gouvernement-deja-menace-par-la-censure_6645554_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/5664/2832/1440/720/60/0/6420054_ftp-import-images-1-sdmtfppo25u5-5134177-01-06.jpg",
+      "publishedAt": "2025-10-11T04:02:49Z",
+      "content": "Le coordinateur de La France insoumise (FFI), Manuel Bompard, a dénoncé vendredi soir sur X « un nouveau bras dhonneur aux Français dun irresponsable ivre de son pouvoir. La France et son peuple sont… [+1096 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Nicolas Truong",
+      "title": "Cette sensation que « le réel s’effondre sous nos pieds », ou le nouveau malaise dans la civilisation",
+      "description": "Essor des guerres et hausse des troubles mentaux, dévaluation de la parole et perte du rapport à la réalité sont les signes inquiétants du basculement de nos sociétés. Il y a presque un siècle, Freud diagnostiquait un mal-être qui fait écho à celui que nous t…",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/cette-sensation-que-le-reel-s-effondre-sous-nos-pieds-ou-le-nouveau-malaise-dans-la-civilisation_6645721_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/1260/0/3650/2433/1440/960/60/0/92b7f33_upload-1-2lnlvaahutgh-debats-lemonde-v2.JPG",
+      "publishedAt": "2025-10-11T04:00:50Z",
+      "content": "Quelque chose ne tourne pas rond. Dinquiétantssignaux donnent limpression que nos sociétés sont au bord de limplosion. Il faut dire que chaque jour apporte son quota daccablement, son flot de sidérat… [+1914 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Claire Ané, Aline Leclerc",
+      "title": "« Ça ne tient plus » : les associations organisent une mobilisation inédite pour alerter sur leur situation d’urgence financière",
+      "description": "Des actions sont prévues dans toute la France, samedi 11 octobre, pour appeler les pouvoirs publics à maintenir les subventions aux associations. Une nouvelle enquête montre combien elles sont fragilisées par la baisse continue de leurs financements.",
+      "url": "https://www.lemonde.fr/economie/article/2025/10/11/ca-ne-tient-plus-les-associations-organisent-une-mobilisation-inedite-pour-alerter-sur-leur-situation-d-urgence-financiere_6645720_3234.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/0/59/2622/1748/1440/960/60/0/53bdeda_upload-1-xb40cpakpcox-colcanopa-2025-10-09-image1.jpeg",
+      "publishedAt": "2025-10-11T04:00:43Z",
+      "content": "COLCANOPA\r\nDepuis sa création, en 1967, LEspace temps, à Cherbourg (Manche), navait jamais connu une « situation aussi difficile ».A la fois foyer de jeunes travailleurs, service de restauration coll… [+987 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Alice Raybaud",
+      "title": "« Ça ne remplace pas ma psy, mais ça permet de vider son sac » : ces jeunes qui s’en remettent à l’IA comme confident et soutien émotionnel",
+      "description": "De plus en plus de jeunes se tournent vers l’intelligence artificielle pour se confier sur leur vie intime et obtenir des conseils psychologiques. Des outils qui surfent sur la vague de mal-être psychique au sein de la jeunesse.",
+      "url": "https://www.lemonde.fr/campus/article/2025/10/11/ca-ne-remplace-pas-ma-psy-mais-ca-permet-de-vider-son-sac-ces-jeunes-qui-s-en-remettent-a-l-ia-comme-confident-et-soutien-emotionnel_6645722_4401467.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/03/25/0/2139/1426/1440/960/60/0/c4d083d_upload-1-lvcww02csifn-le-monde-08-10-copie.jpg",
+      "publishedAt": "2025-10-11T04:00:42Z",
+      "content": "PALM ILLUSTRATIONS\r\nCétait dabord un simple outil pratique. Au lancement de ChatGPT en 2022, Joséphine (les témoins ont demandé lanonymat), alors lycéenne, se sert de lintelligence artificielle (IA) … [+1311 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Raffaele Simone",
+      "title": "Procès Sarkozy-Kadhafi : « On ne peut que se réjouir que la France ait la dignité de juger et de condamner ses puissants »",
+      "description": "Le linguiste et essayiste Raffaele Simone propose, dans une tribune au « Monde », un point de vue italien sur la condamnation de l’ancien chef de l’Etat. Il y voit le signe d’une justice forte et indépendante, qui rappelle que les élites ne sont pas au-dessus…",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/proces-sarkozy-kadhafi-on-ne-peut-que-se-rejouir-que-la-france-ait-la-dignite-de-juger-et-de-condamner-ses-puissants_6645719_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/03/0/0/1500/1000/1440/960/60/0/fad59a8_upload-1-2llqgsv0zydw-frame-1415.jpg",
+      "publishedAt": "2025-10-11T04:00:40Z",
+      "content": "La condamnation dun ancien chef dEtat est un fait dune force symbolique exceptionnelle, qui a peu de précédents en Europe. Elle suscite à la fois de la compassion pour Nicolas Sarkozy et de ladmirati… [+1757 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Tiphaine Thuillier",
+      "title": "Contre les violences sexuelles, le dilemme des parents : « Je préfère passer pour une mère parano plutôt que prendre le risque de louper quelque chose »",
+      "description": "Chaque année, en France, 160 000 enfants sont victimes de violences sexuelles, dont 77 % au sein de la famille. Face à cette alarmante réalité, les parents tentent de canaliser leurs inquiétudes, entre prévention éclairée et méfiance extrême.",
+      "url": "https://www.lemonde.fr/intimites/article/2025/10/11/contre-les-violences-sexuelles-le-dilemme-des-parents-je-prefere-passer-pour-une-mere-parano-plutot-que-prendre-le-risque-de-louper-quelque-chose_6645718_6190330.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/48/0/1890/1260/1440/960/60/0/8734769_upload-1-tqellxmywccf-illustration-le-monde-web-good-3.jpg",
+      "publishedAt": "2025-10-11T04:00:36Z",
+      "content": "JO LLCOOL \r\nDans le cerveau dElisa (elle a requis lanonymat), mère de deux enfants de 9 et 7 ans, se joue une âpre bataille. La quadragénaire parisienne se retrouve souvent assaillie de pensées déran… [+970 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Romain Thomas",
+      "title": "Voiture électrique : comment encore profiter du « leasing social »",
+      "description": "Il faut faire vite, car le nombre total de véhicules finançables est limité.",
+      "url": "https://www.lemonde.fr/argent/article/2025/10/11/voiture-electrique-comment-encore-profiter-du-leasing-social_6645717_1657007.html",
+      "urlToImage": "https://img.lemde.fr/2023/04/17/0/0/3000/2000/1440/960/60/0/e52fb1a_1681734869828-fghhhhh.jpg",
+      "publishedAt": "2025-10-11T04:00:29Z",
+      "content": "Le dispositif du « leasing social », qui avait connu un large succès en 2024, a été reconduit le 30 septembre afin de permettre aux ménages à revenus modérés de disposer dune voiture électrique à moi… [+1914 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Hippolyte d’Albis, Françoise Benhamou",
+      "title": "« La France doit transformer la contrainte militaire en une réelle occasion technologique et industrielle »",
+      "description": "Les dépenses militaires ne sont pas un moteur automatique d’innovation : tout dépend de leur gestion et de leur orientation, rappellent les économistes Hippolyte d’Albis et Françoise Benhamou. Leur tribune au « Monde » lance l’appel à candidature du Prix du m…",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/la-france-doit-transformer-la-contrainte-militaire-en-une-reelle-occasion-technologique-et-industrielle_6645716_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/09/26/0/0/1500/1000/1440/960/60/0/9d68f37_upload-1-h6k9n1e3mz3u-frame-1294.jpg",
+      "publishedAt": "2025-10-11T04:00:26Z",
+      "content": "Lors du sommet de lOrganisation du traité de lAtlantique Nord à La Haye, en juin, la France sest engagée, avec les 31 autres membres, à porter ses dépenses de défense à 5 % du produit intérieur brut … [+1920 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Gladys Marivat",
+      "title": "« Où s’adosse le ciel » : David Diop à la recherche de ses racines",
+      "description": "Pour son troisième roman, l’écrivain a croisé avec succès les anciens récits des griots du Sénégal avec l’histoire de l’Egypte pharaonique.",
+      "url": "https://www.lemonde.fr/livres/article/2025/10/11/ou-s-adosse-le-ciel-david-diop-a-la-recherche-de-ses-racines_6645714_3260.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/07/0/0/4065/2710/1440/960/60/0/5ed4c43_upload-1-ousz1xwb7du3-034-464951.jpg",
+      "publishedAt": "2025-10-11T04:00:17Z",
+      "content": "La mosquée de Djenné, au Mali, reconstruite dans son état actuel en 1907. BERNARD FOUBERT/PHOTONONSTOP VIA AFP\r\n« Où sadosse le ciel », de David Diop, Julliard, 368 p., 22,50 , numérique 15 .\r\nAu pri… [+1589 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "Prix du meilleur jeune économiste 2026 : les lauréats récompensés depuis 2000",
+      "description": "Depuis sa création, le Prix du meilleur jeune économiste a été décerné à 25 hommes et sept femmes qui ont contribué, par leurs travaux académiques et leurs fonctions, aux débats publics majeurs en France et à l’étranger. Il est décerné par « Le Monde » et Le …",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/prix-du-meilleur-jeune-economiste-2026-les-laureats-recompenses-depuis-2000_6645713_3232.html",
+      "urlToImage": "https://asset.lemde.fr/medias/img/social-network/default.png",
+      "publishedAt": "2025-10-11T04:00:15Z",
+      "content": "Voici la liste de tous les récipiendaires du Prix du meilleur jeune économiste depuis lannée 2000, avec leurs fonctions actuelles et leurs domaines de recherche.\r\nBruno Amable (2000) est professeur à… [+1942 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Michaël Szadkowski",
+      "title": "De Sora à Vibes : à quoi ressemble un réseau social entièrement généré par IA ?",
+      "description": "OpenAI et Meta ont chacun lancé outre-Atlantique, et à quelques jours d’écart, leur réseau social entièrement dédié aux vidéos générées par IA. Deux services, encore indisponibles en Europe, dont le principe pose cependant déjà question.",
+      "url": "https://www.lemonde.fr/pixels/article/2025/10/11/de-sora-a-vibes-a-quoi-ressemble-un-reseau-social-entierement-genere-par-ia_6645711_4408996.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/3000/2000/1440/960/60/0/051c4d4_upload-1-akyceme8cjno-img-8480.jpg",
+      "publishedAt": "2025-10-11T03:45:07Z",
+      "content": "En deux jours, ma vie numérique est devenue un champ de bataille. Ma compagne, mes amis et collègues en ont marre de mes envois de vidéos bizarres et inutiles. Dautres génèrent des images absurdes de… [+1465 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Le Venezuela appelle l’ONU à agir contre une possible intervention armée des Etats-Unis sur son sol",
+      "description": "Devant le Conseil de sécurité de l’organisation, le pays a reçu un soutien mitigé alors qu’il dénonce une « escalade des agressions » des Etats-Unis et le déploiement de navires de guerre dans les Caraïbes",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/le-venezuela-appelle-l-onu-a-agir-contre-une-possible-intervention-armee-des-etats-unis-sur-son-sol_6645710_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/06/0/257/4890/3260/1440/960/60/0/00d7ca7_ftp-import-images-1-ignzendrsvp5-5100779-01-06.jpg",
+      "publishedAt": "2025-10-11T03:44:06Z",
+      "content": "Une manifestation devant le siège des Nations unies à Caracas, le 6 octobre 2025. JUAN BARRETO/AFP\r\nLe Venezuela a appelé, vendredi 10 octobre, à empêcher le « crime international » commis contre lui… [+3068 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Arnaud Leparmentier, Harold Thibault",
+      "title": "La guerre commerciale entre les Etats-Unis et la Chine reprend brutalement, entre terres rares et droits de douane",
+      "description": "Après l’annonce par Pékin d’un contrôle des produits faits à l’étranger mais contenant des terres rares chinoises, Donald Trump a menacé d’imposer des tarifs supplémentaires de 100 % dès le 1ᵉʳ novembre.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/la-guerre-commerciale-entre-les-etats-unis-et-la-chine-reprend-brutalement-entre-terres-rares-et-droits-de-douane_6645709_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/1/0/5120/3413/1440/960/60/0/b8876a1_ftp-import-images-1-bnfpxo75jwz2-5135151-01-06.jpg",
+      "publishedAt": "2025-10-11T03:30:25Z",
+      "content": "Le président américain, Donald Trump, dans le bureau Ovale de la Maison Blanche, à Washington, le 10 octobre 2025. SAUL LOEB / AFP\r\nDonald Trump, pourtant si conciliant avec son homologue chinois Xi … [+1259 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Mathieu Macheret",
+      "title": "Michael Mann, invité du Festival Lumière à Lyon : « Le cinéma est une expérience totale, incomparable »",
+      "description": "Après Isabelle Huppert pour l’édition 2024, le réalisateur américain du « Dernier des Mohicans », de « Heat » ou encore de « Collateral » doit recevoir, vendredi 17 octobre, le 17ᵉ prix de la manifestation.",
+      "url": "https://www.lemonde.fr/cinema/article/2025/10/11/michael-mann-invite-du-festival-lumiere-a-lyon-le-cinema-est-une-experience-totale-incomparable_6645708_3476.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/08/0/53/3678/2452/1440/960/60/0/00eedcb_upload-1-miadps0st0xx-collateral-frank-connor-c-cn-111.jpg",
+      "publishedAt": "2025-10-11T03:30:19Z",
+      "content": "Michael Mann, sur le tournage de « Miami Vice » (2006). FRANK CONNOR\r\nAux cinéastes de fond, on oppose souvent les stylistes, quon suspecte à ce titre de formalisme creux. Pourtant, le style est auss… [+890 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Jézabel Couppey-Soubeyran",
+      "title": "Jézabel Couppey-Soubeyran : « Le mur de la dette publique ne doit pas empêcher les investissements dans la transition écologique »",
+      "description": "L’économiste appelle, dans sa chronique au « Monde », à repenser les modes de financement public pour dépasser les limites du marché de la dette, afin que la France puisse investir dans l’énergie, l’agriculture ou la défense.",
+      "url": "https://www.lemonde.fr/idees/article/2025/10/11/jezabel-couppey-soubeyran-le-mur-de-la-dette-publique-ne-doit-pas-empecher-les-investissements-dans-la-transition-ecologique_6645707_3232.html",
+      "urlToImage": "https://img.lemde.fr/2025/05/30/0/6/5050/3367/1440/960/60/0/f16b554_ftp-import-images-1-q62ck4zuzvrg-2025-05-30t091937z-1070758235-rc2016ahtp9v-rtrmadp-3-climate-change-eu-target.JPG",
+      "publishedAt": "2025-10-11T03:30:10Z",
+      "content": "Tandis que lincertitude est à son comble concernant le budget 2026 et que le débat public reste focalisé sur le mur de la dette, on en oublie lautre mur à franchir, celui de linvestissement dans la t… [+1944 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Alexandre Pedro",
+      "title": "Gouvernement Lecornu 2 : Bruno Retailleau s’en va mais peine à embarquer Les Républicains avec lui",
+      "description": "Après avoir contribué à la démission du premier ministre, le ministre de l’intérieur se retrouve dans une situation inconfortable. Les députés LR ont voté à une très large majorité pour la participation au gouvernement, quand lui a acté la rupture.",
+      "url": "https://www.lemonde.fr/politique/article/2025/10/11/gouvernement-lecornu-2-bruno-retailleau-s-en-va-mais-peine-a-embarquer-les-republicains-avec-lui_6645706_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/4557/3038/1440/960/60/0/32b47d1_upload-1-oy7ax80ozdxd-cbi1284034.jpg",
+      "publishedAt": "2025-10-11T03:30:08Z",
+      "content": "Laurent Wauquiez et Bruno Retailleau, du parti Les Républicains, sortent de leur rencontre avec le président de la République, Emmnauel Macron, à lElysée, à Paris, le 10 octobre 2025. CYRIL BITTON/DI… [+1373 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Au Mexique, des pluies torrentielles font au moins 23 morts",
+      "description": "L’armée a été sollicitée pour apporter son soutien alors que la quasi-totalité des Etats mexicains sont touchés par de fortes pluies qui tombent depuis jeudi.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/au-mexique-des-pluies-torrentielles-font-au-moins-23-morts_6645704_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/11/5/0/5422/3614/1440/960/60/0/05ac3ae_ftp-import-images-1-7zab5c8kcgwv-2025-10-11t023900z-661842567-rc209harp70h-rtrmadp-3-mexico-floods.JPG",
+      "publishedAt": "2025-10-11T03:21:24Z",
+      "content": "Une rue inondée après des pluies torrentielles qui ont provoqué le débordement des rivières à Poza Rica, dans lÉtat de Veracruz, au Mexique, le 10 octobre 2025. ROLANDO RAMOS / REUTERS\r\nAu moins 23 p… [+1629 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, accord de paix à Gaza : Donald Trump se dit confiant sur la tenue du cessez-le-feu",
+      "description": "« Ils en ont tous marre de se battre », a avancé le président américain. Il doit se rendre ce week-end au Proche-Orient, d’abord en Israël, où il doit s’adresser à la Knesset, puis en Egypte où il prévoit de rencontrer lundi « de nombreux dirigeants » pour di…",
+      "url": "https://www.lemonde.fr/international/live/2025/10/11/en-direct-accord-de-paix-a-gaza-donald-trump-se-dit-confiant-sur-la-tenue-du-cessez-le-feu_6645703_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/8256/4128/1440/720/60/0/6d7546c_ftp-import-images-1-0ep2amwz67ph-5135172-01-06.jpg",
+      "publishedAt": "2025-10-11T03:00:15Z",
+      "content": "<li>Parce quune autre personne (ou vous) est en train de lire Le Monde avec ce compte sur un autre appareil.\r\nVous ne pouvez lire Le Monde que sur un seul appareil à la fois (ordinateur, téléphone ou… [+5322 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Olivier Pérou",
+      "title": "A gauche, la colère et plusieurs nuances de censure après la nouvelle nomination de Sébastien Lecornu à Matignon",
+      "description": "Socialistes, écologistes et communistes ont présenté un front uni pour réclamer le poste de premier ministre, et font désormais planer la menace d’un vote contre le futur gouvernement si la réforme des retraites n’est pas suspendue.",
+      "url": "https://www.lemonde.fr/politique/article/2025/10/11/a-gauche-la-colere-et-plusieurs-nuances-de-censure-apres-la-nouvelle-nomination-de-sebastien-lecornu-a-matignon_6645702_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/5344/3563/1440/960/60/0/6e9ed30_upload-1-lbc6rwl5xdxd-cbi1284020.jpg",
+      "publishedAt": "2025-10-11T03:00:06Z",
+      "content": "Les représentants des partis de gauche, Stéphane Peu (à gauche), Cyrielle Chatelain, Olivier Faure, Fabien Roussel, Boris Vallaud et Marine Tondelier, viennent rencontrer Emmanuel Macron avant lannon… [+1510 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Simon Roger",
+      "title": "Maroc : à Marrakech, la génération Z veut « un nouveau contrat social »",
+      "description": "La grande ville touristique de l’ouest du pays n’a pas échappé au mouvement de contestation, pourtant pas habituée à voir une partie de sa jeunesse descendre dans la rue.",
+      "url": "https://www.lemonde.fr/afrique/article/2025/10/11/maroc-a-marrakech-la-generation-z-veut-un-nouveau-contrat-social_6645701_3212.html",
+      "urlToImage": "https://asset.lemde.fr/medias/img/social-network/default.png",
+      "publishedAt": "2025-10-11T03:00:05Z",
+      "content": "La mobilisation de la jeunesse de Marrakech, qui poursuit ses manifestations depuis le 27 septembre, na pas dissuadé les touristes. La place Djemaa El-Fna, emblématique de la cité marocaine, devient … [+1176 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP et Reuters",
+      "title": "Le MIT est la première université à refuser de signer l’accord sur l’éducation supérieure de l’administration Trump",
+      "description": "Au risque de perdre d’importants financements fédéraux, la présidente du prestigieux Massachusetts Institute of Technology a refusé de céder à la pression du gouvernement et a choisi de défendre l’indépendance de son institution.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/le-mit-est-la-premiere-universite-a-refuser-de-signer-l-accord-sur-l-education-superieure-de-l-administration-trump_6645700_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/3470/2313/1440/960/60/0/e6af5d2_ftp-import-images-1-49whe6n9opyu-2025-10-10t212641z-1859107497-rc2918au0vsr-rtrmadp-3-usa-trump-universities.JPG",
+      "publishedAt": "2025-10-11T01:55:02Z",
+      "content": "La présidente du MIT, Sally Kornbluth, lors dune cérémonie de remise des diplômes au MIT à Cambridge (Massachusetts), le 30 mai 2024. BRIAN SNYDER/REUTERS\r\nDans une lettre à la ministre de léducation… [+2453 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "En plein shutdown, Trump passe à l’acte et licencie plus de 4000 fonctionnaires",
+      "description": "Alors que la crise budgétaire s’enlise des milliers d’employés fédéraux ont été congédiés par l’administration américaine visant « ceux proches de démocrates ». Des réductions d’effectifs pour forcer les démocrates à voter le budget.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/en-plein-shutdown-trump-passe-a-l-acte-et-licencie-plus-de-4000-fonctionnaires_6645699_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/09/0/0/5952/3968/1440/960/60/0/05128ff_ftp-import-images-1-yfytgs7csodw-c61191d6e9a44fcf9edd7a4c0e2d2bde-0-2284a10dad42482fb1cf235a03617811.jpg",
+      "publishedAt": "2025-10-11T01:11:14Z",
+      "content": "A lextérieur de la Chambre du Sénat pendant le shutdown, à Washington, le 9 octobre 2025. ALLISON ROBBERT/AP\r\nAlors que les Etats-Unis semblent aller tout droit vers une troisième semaine de shutdown… [+4282 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Corée du Nord : Kim Jong-un célèbre le 80e anniversaire du parti unique en montrant les muscles",
+      "description": "La Corée du Nord a fêté en grande pompe les 80 ans du Parti des travailleurs avec un défilé militaire à Pyongyang, sous les yeux d’émissaires chinois, russes et vietnamiens",
+      "url": "https://www.20minutes.fr/monde/coree_du_nord/4178656-20251011-coree-nord-kim-jong-celebre-80e-anniversaire-parti-unique-montrant-muscles",
+      "urlToImage": "https://img.20mn.fr/MLHf3kXjTTKMvx274ejcsyk/1444x920_from-left-vietnamese-communist-party-general-secretary-to-lam-north-korean-leader-kim-jong-un-chinese-premier-li-qiang-and-russian-security-council-deputy-chairman-and-the-head-of-the-united-russia-party-dmitry-medvedev-attend-a-reception-marking-the-80th-anniversary-of-the-ruling-workers-party-in-pyongyang-north-korea-friday-oct-10-2025-ekaterina-shtukina-sputnik-pool-photo-via-ap-pvb114-25283638047491-pool-photo-2510101948",
+      "publishedAt": "2025-10-11T00:56:42Z",
+      "content": "La Corée du Nord a marqué vendredi soir le 80e anniversaire de la fondation de son Parti des travailleurs par un impressionnant défilé militaire sur la place Kim Il Sung, en présence de dignitaires é… [+1388 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky annonce qu’une délégation ukrainienne se rendra aux Etats-Unis pour négocier l’achat d’armes américaines",
+      "description": "Le président ukrainien souhaite obtenir un accord d’achat de systèmes de défense aérienne et de lance-roquettes Himars modifiés pour tirer des missiles tactiques ATACMS. Après le bombardement de la capitale dans la nuit, le maire de Kiev a demandé aux habitan…",
+      "url": "https://www.lemonde.fr/international/live/2025/10/11/en-direct-guerre-en-ukraine-volodymyr-zelensky-annonce-qu-une-delegation-ukrainienne-se-rendra-aux-etats-unis-pour-negocier-l-achat-d-armes-americaines_6644466_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/5132/2566/1440/720/60/0/eb79a71_ftp-import-images-1-sfjfgkk00qyp-5132881-01-06.jpg",
+      "publishedAt": "2025-10-11T00:24:32Z",
+      "content": "Deux semaines après le survol de son espace aérien par des drones à lorigine non identifiée, le Danemark va acheter des avions de combat américains F-35 pour renforcer son système de défense. « Nous … [+1258 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, Sébastien Lecornu renommé premier ministre : le Parti socialiste censurera le gouvernement en l’absence de « suspension immédiate et complète » de la réforme des retraites",
+      "description": "« J’accepte – par devoir – la mission qui m’est confiée par le président », a déclaré M. Lecornu après sa reconduction. La France insoumise et le Rassemblement national ont déjà annoncé qu’ils censureront le prochain gouvernement, Jordan Bardella dénonçant un…",
+      "url": "https://www.lemonde.fr/politique/live/2025/10/11/en-direct-sebastien-lecornu-renomme-premier-ministre-le-parti-socialiste-censurera-le-gouvernement-en-l-absence-de-suspension-immediate-et-complete-de-la-reforme-des-retraites_6645554_823448.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/08/37/0/6000/3000/1440/720/60/0/26e59d8_upload-1-vhfsjmfsppji-cbi1282003.jpg",
+      "publishedAt": "2025-10-10T23:43:49Z",
+      "content": "Le coordinateur de La France insoumise (FFI), Manuel Bompard, a dénoncé vendredi soir sur X « un nouveau bras dhonneur aux Français dun irresponsable ivre de son pouvoir. La France et son peuple sont… [+1096 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Disparition d’une petite fille dans l’Orne : Le père et deux complices présumés mis en examen",
+      "description": "Le père de Khuslen, 3 ans, enlevée cette semaine dans l’Orne, a été mis en examen pour enlèvement et séquestration. Deux autres suspects, dont une femme ayant fourni le véhicule, sont également poursuivis",
+      "url": "https://www.20minutes.fr/justice/4178631-20251011-disparition-petite-fille-orne-pere-deux-complices-presumes-mis-examen",
+      "urlToImage": "https://img.20mn.fr/VHq0ViHJTMaI-poQ7k_Zkik/1444x920_khuslen-enlevee-par-son-pere-a-alencon",
+      "publishedAt": "2025-10-10T23:23:30Z",
+      "content": "Laffaire de lenlèvement de la petite Khuslen, 3 ans, dans lOrne, connaît un nouveau tournant. Trois jours après le déclenchement dune alerte enlèvement, son père et deux autres suspects ont été mis e… [+1455 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Denis Ménétrier",
+      "title": "France-Azerbaïdjan : dans le sillage de son excellent début de saison, Kylian Mbappé montre la voie vers la Coupe du monde 2026 aux Bleus",
+      "description": "Le capitaine tricolore a lancé l’équipe de France d’un superbe but face à l’Azerbaïdjan (3-0), vendredi, avant d’être passeur décisif. S’il a confirmé ses très bonnes dispositions du moment, il est néanmoins sorti blessé en fin de rencontre et sera forfait po…",
+      "url": "https://www.lemonde.fr/sport/article/2025/10/11/france-azerbaidjan-dans-le-sillage-de-son-excellent-debut-de-saison-kylian-mbappe-montre-la-voie-vers-la-coupe-du-monde-2026-aux-bleus_6645698_3242.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/4410/2940/1440/960/60/0/88c4d22_ftp-import-images-1-3pabdl9z86ht-2025-10-10t193745z-401310948-up1elaa1iivqz-rtrmadp-3-soccer-worldcup-fra-aze-report.JPG",
+      "publishedAt": "2025-10-10T23:17:15Z",
+      "content": "Kylian Mbappé célèbre son but inscrit face à lAzerbaïdjan au Parc des Princes, à Paris, le 10 octobre 2025. BENOIT TESSIER / REUTERS\r\nIl fallait voir le public du Parc des Princes senfoncer chaque mi… [+1519 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Donald Trump annonce une augmentation de 100 % des droits de douane sur la Chine",
+      "description": "Le président américain a annoncé de nouveaux droits de douane massifs sur les marchandises chinoises en réponse à la décision de la Chine d’instaurer de nouveaux contrôles sur l’exportation des technologies liées à l’extraction et la production des terres rar…",
+      "url": "https://www.lemonde.fr/international/article/2025/10/11/donald-trump-annonce-une-augmentation-de-100-des-droits-de-douane-sur-la-chine_6645697_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/5/0/10443/6962/1440/960/60/0/91f42a0_ftp-import-images-1-ojkodj3awxqc-5134897-01-06.jpg",
+      "publishedAt": "2025-10-10T22:54:49Z",
+      "content": "Un porte-conteneurs entre dans le port dOakland (Californie), le 10 octobre 2025. JUSTIN SULLIVAN/AFP\r\nEn annonçant 100 % de droits de douane supplémentaires sur les marchandises chinoises, Donald Tr… [+3901 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Droits de douane américains : Trump relance la guerre commerciale contre la Chine",
+      "description": "Trump ravive la bataille commerciale avec Chine en annonçant de nouveaux droits de douane de 100 % sur les produits chinois et des restrictions technologiques majeures, après les mesures de Pékin sur les terres rares",
+      "url": "https://www.20minutes.fr/monde/etats-unis/4178629-20251011-droits-douane-americains-trump-relance-guerre-commerciale-contre-chine",
+      "urlToImage": "https://img.20mn.fr/oK3_YD1uRtuUz25R5cYShSk/1444x920_president-donald-trump-walks-on-the-south-lawn-after-arriving-on-marine-one-at-the-white-house-friday-oct-10-2025-in-washington-ap-photo-alex-brandon-dcje337-25283661543940-2510102030",
+      "publishedAt": "2025-10-10T22:51:30Z",
+      "content": "Donald Trump a ranimé vendredi la guerre commerciale entre les Etats-Unis et la Chine, en annonçant une série de sanctions économiques dune ampleur inédite. Le président américain a décidé dimposer d… [+2333 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Six hommes mis en examen pour avoir mené une opération « commando » contre des opposants à l’A69",
+      "description": "Plusieurs individus, dont le gérant d’une entreprise chargée de la sécurité du chantier de la nouvelle autoroute, sont accusés d’avoir attaqué des militants qui s’opposaient au projet. Ils encourent jusqu’à vingt ans de prison pour incendie volontaire en band…",
+      "url": "https://www.lemonde.fr/societe/article/2025/10/10/six-hommes-mis-en-examen-pour-avoir-mene-une-operation-commando-contre-des-opposants-a-l-a69_6645695_3224.html",
+      "urlToImage": "https://img.lemde.fr/2025/07/05/0/0/4566/3044/1440/960/60/0/24d7033_upload-1-d6lzgx7uukeu-577939.jpg",
+      "publishedAt": "2025-10-10T21:50:27Z",
+      "content": "Un gendarme français monte la garde près dengins de chantier près du campement de la ZAD (Zone à défendre) installé à Maurens-Scopont pour protester contre le projet dautoroute A69 reliant Toulouse à… [+4364 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Marie Delcas",
+      "title": "Maria Corina Machado, un prix Nobel de la paix très politique pour une opposante au président vénézuélien, Nicolas Maduro",
+      "description": "La lauréate a été choisie « pour son combat en faveur de la démocratie ». Cette figure de la droite radicale dans son pays, qui soutient la ligne dure du président américain, Donald Trump, face au régime, ne fait pas l’unanimité au sein de l’opposition.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/10/maria-corina-machado-un-prix-nobel-de-la-paix-tres-politique-pour-une-opposante-au-president-venezuelien-nicolas-maduro_6645694_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/23/0/4456/2970/1440/960/60/0/98e72c5_ftp-import-images-1-yreg40345jlh-2025-10-10t091200z-919719971-rc2i6cal5yvd-rtrmadp-3-nobel-prize-peace.JPG",
+      "publishedAt": "2025-10-10T21:44:54Z",
+      "content": "La Vénézuélienne Maria Corina Machado à Caracas, au Venezuela, le 9 janvier 2025. GABY ORAA / REUTERS\r\nFigure de la droite radicale vénézuélienne, lopposante Maria Corina Machado, 58 ans, sest vu déc… [+1475 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Alexandre Aublanc",
+      "title": "Au Maroc, Mohammed VI renvoie le gouvernement à ses responsabilités, après deux semaines de manifestations",
+      "description": "Dans son discours au parlement marocain vendredi, le roi n’a pas évoqué directement le mouvement de protestation de la génération Z, mais somme l’exécutif de faire preuve d’« une plus grande célérité ».",
+      "url": "https://www.lemonde.fr/afrique/article/2025/10/10/au-maroc-mohammed-vi-renvoie-le-gouvernement-a-ses-responsabilites-apres-deux-semaines-de-manifestations_6645693_3212.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/4759/3173/1440/960/60/0/b18a5d0_ftp-import-images-1-azsn4jiu5tjd-5132693-01-06.jpg",
+      "publishedAt": "2025-10-10T21:26:57Z",
+      "content": "Le roi Mohammed VI au parlement, à Rabat, le 10 octobre 2025. ABDEL MAJID BZIOUAT / AFP\r\nLes manifestants de la génération Z attendaient une parole forte, ils ont été en partie entendus. Dans un disc… [+1606 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lefigaro.fr"
+      },
+      "author": "Steve Tenré",
+      "title": "Mort de Jean Pormanove : une nouvelle enquête ouverte pour «violences",
+      "description": "Du matériel informatique a été saisi. En cause, notamment, un récent direct dans lequel un homme d’une trentaine d’années a joué le rôle du souffre-douleur.",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/mort-de-jean-pormanove-une-nouvelle-enquete-ouverte-pour-violences-contre-l-equipe-du-lokal-perquisitionne-apres-la-reprise-des-directs-20251010",
+      "urlToImage": "https://i.f1g.fr/media/cms/1200x630_crop/2025/10/10/b3c300ad51275df11be93af0f69c69822c2cc7885cc8892c95461b74880f7998.png",
+      "publishedAt": "2025-10-10T21:22:30Z",
+      "content": "Du matériel informatique a été saisi. En cause, notamment, un récent direct dans lequel un homme dune trentaine dannées a joué le rôle du souffre-douleur.Bis repetita. Une nouvelle enquête pour «viol… [+3425 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Tempête tropicale Jerry : La Guadeloupe repasse en vigilance orange, un automobiliste retrouvé mort",
+      "description": "Un automobiliste est mort emporté par les eaux après le passage de la tempête tropicale Jerry en Guadeloupe, placée désormais en vigilance orange. L’archipel, comme la Martinique et les îles du Nord, reste sous surveillance",
+      "url": "https://www.20minutes.fr/planete/4178623-20251010-tempete-tropicale-jerry-guadeloupe-repasse-vigilance-orange-automobiliste-retrouve-mort",
+      "urlToImage": "https://img.20mn.fr/qjME1sItRIOLjFKcCPSplyk/1444x920_a-car-drives-through-the-water-after-a-heavy-rain-caused-by-the-tropical-storm-jerry-in-lauricisque-on-the-french-caribbean-island-of-guadeloupe-on-october-10-2025-photo-by-cedrick-isham-calvados-afp",
+      "publishedAt": "2025-10-10T21:11:49Z",
+      "content": "La tempête tropicale Jerry, qui a frappé la Guadeloupe dans la nuit de jeudi à vendredi, a fait une victime. Un automobiliste, coincé dans sa voiture sur la commune du Moule, en Grande-Terre, a été r… [+2415 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Cécile Bouanchaud et Ramzy Bensaadi (Service photo)",
+      "title": "EN DIRECT, accord de paix à Gaza : alors que le cessez-le-feu est entré en vigueur vendredi, 200 000 personnes de retour dans le nord de l’enclave, selon la défense civile",
+      "description": "L’armée israélienne a annoncé un « redéploiement en préparation de l’accord de cessez-le-feu et du retour des otages ». Selon cet accord, le Hamas a désormais soixante-douze heures pour libérer les derniers otages retenus.",
+      "url": "https://www.lemonde.fr/international/live/2025/10/10/en-direct-accord-de-paix-a-gaza-alors-que-le-cessez-le-feu-est-entre-en-vigueur-vendredi-200-000-personnes-de-retour-dans-le-nord-de-l-enclave-selon-la-defense-civile_6644360_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/125/0/4589/2294/1440/720/60/0/12a9821_ftp-import-images-1-lkce0siq9dnf-2025-10-10t154211z-643973493-rc239havyor9-rtrmadp-3-israel-palestinians-egypt.JPG",
+      "publishedAt": "2025-10-10T20:56:47Z",
+      "content": "Un photographe de lAgence France-Presse (AFP) a été blessé vendredi dans une attaque de colons israéliens dans le nord de la Cisjordanie alors quil couvrait la cueillette des olives dans une localité… [+2143 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Reconduction de Sébastien Lecornu : LFI, le RN et le PCF promettent déjà la censure",
+      "description": "Quelques minutes seulement après l’annonce par l’Elysée de la reconduction de Sébastien Lecornu à Matignon, les deux partis ont annoncé qu’ils censureraient le prochain gouvernement",
+      "url": "https://www.20minutes.fr/politique/4178626-20251010-reconduction-sebastien-lecornu-lfi-rn-pcf-promettent-deja-censure",
+      "urlToImage": "https://img.20mn.fr/mEVuVjDgSAqyqlSpKcPpaSk/1444x920_reactions-de-marine-le-pen-jordan-bardella-jean-philippe-tanguy-du-rassemblement-national-aupres-de-la-presse-apres-leur-reunion-au-siege-du-parti-suite-a-la-demission-aujourd-hui-du-premier-ministre-sebastien-lecornu-le-6-octobre-2025-a-paris-paris-france-06-10-2025-reactions-from-marine-le-pen-jordan-bardella-and-jean-philippe-tanguy-of-the-rassemblement-national-party-to-the-press-after-their-meeting-at-the-party-s-headquarters-following-the-resignation-today-of-french-prime-minister-sebastien-lecornu-on-october-6-2025-in-paris-paris-france-06-10-2025-04harsin-reactionsrndemissionlecornu016-credit-isa-harsin-sipa-2510061336",
+      "publishedAt": "2025-10-10T20:51:32Z",
+      "content": "Leur position ne faisait que peu de doute. La France insoumise, le Parti communiste français et le Rassemblement national ont immédiatement promis vendredi soir de censurer le prochain gouvernement, … [+1440 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "20 Minutes"
+      },
+      "author": "20 Minutes avec AFP",
+      "title": "Sébastien Lecornu reconduit par Emmanuel Macron à Matignon",
+      "description": "Quatre jours après sa démission, le Premier ministre démissionnaire a été reconduit à son poste par le président de la République",
+      "url": "https://www.20minutes.fr/politique/4178625-20251010-sebastien-lecornu-reconduit-emmanuel-macron-matignon",
+      "urlToImage": "https://img.20mn.fr/eNuHXD5TQEKKqc7fnjb02Ck/1444x920_french-outgoing-prime-minister-sebastien-lecornu-during-a-statement-at-the-courtyard-of-the-hotel-matignon-in-paris-france-on-october-8-2025-04sipa-1-0070-credit-eliot-blondet-pool-sipa-2510081044",
+      "publishedAt": "2025-10-10T20:32:23Z",
+      "content": "Il avait pourtant annoncé que sa mission était terminée, laissant entendre quil naccepterait pas de revenir. Pourtant, ce vendredi, peu après 22 heures, alors quEmmanuel Macron sétait laissé 48 heure… [+3443 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde avec AFP",
+      "title": "Etats-Unis : explosion dans une usine d’explosifs dans le Tennessee",
+      "description": "Une « explosion destructrice » s’est produite dans l’usine Accurate Energetic Systems et a soufflé un bâtiment entier, faisant « plusieurs morts », selon les autorités.",
+      "url": "https://www.lemonde.fr/international/article/2025/10/10/etats-unis-explosion-dans-une-usine-d-explosifs-dans-le-tennessee_6645690_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/0/0/6000/4000/1440/960/60/0/aeae2be_ftp-import-images-1-wf0t4wvxuxwh-5133037-01-06.jpg",
+      "publishedAt": "2025-10-10T20:24:58Z",
+      "content": "Des policiers bloquent la route menant à lusine Accurate Energetic Systems, le 10 octobre 2025 à McEwen, dans le Tennessee. BRETT CARLSEN / AFP\r\nUne explosion sest produite, vendredi 10 octobre, dans… [+1758 chars]"
+    },
+    {
+      "source": {
+        "id": "le-monde",
+        "name": "Le Monde"
+      },
+      "author": "Le Monde",
+      "title": "EN DIRECT, guerre en Ukraine : après le bombardement de la capitale dans la nuit, le maire de Kiev demande aux habitants de se préparer à de nouvelles attaques russes",
+      "description": "Après les attaques de la nuit, « la situation est difficile. Et parlons franchement, (…) une nouvelle attaque est prévue dans les prochains jours », a écrit Vitali Klitschko, exhortant les habitants à faire des réserves. Le principal opérateur énergétique pri…",
+      "url": "https://www.lemonde.fr/international/live/2025/10/10/en-direct-guerre-en-ukraine-apres-le-bombardement-de-la-capitale-dans-la-nuit-le-maire-de-kiev-demande-aux-habitants-de-se-preparer-a-de-nouvelles-attaques-russes_6644466_3210.html",
+      "urlToImage": "https://img.lemde.fr/2025/10/10/752/0/4668/2334/1440/720/60/0/2bac3cb_ftp-import-images-1-5noiq4c1xodi-2025-10-10t122624z-1806320735-rc2y8hadrpfb-rtrmadp-3-ukraine-crisis-attack-kyiv-blackout.JPG",
+      "publishedAt": "2025-10-10T20:16:11Z",
+      "content": "Deux semaines après le survol de son espace aérien par des drones à lorigine non identifiée, le Danemark va acheter des avions de combat américains F-35 pour renforcer son système de défense. « Nous … [+1258 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Le Parisien"
+      },
+      "author": "Mehdi Pfeiffer",
+      "title": "Sébastien Lecornu renommé Premier ministre quatre jours après sa démission",
+      "description": "L’attente est terminée, mais le plus dur commence pour le nouveau Premier ministre, qui devra éviter une censure à l’Assemblée, synonyme de dissolution.",
+      "url": "https://www.leparisien.fr/politique/sebastien-lecornu-renomme-premier-ministre-quatre-jours-apres-sa-demission-10-10-2025-5ZVNI6TU25CRPJLETXMIV3BTAQ.php",
+      "urlToImage": "https://www.leparisien.fr/resizer/gXitfJdo_9fA-usD5pM8-kp1Cfk=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/PXWMM4U4XZDEHB7ODFQTWE2NNU.jpg",
+      "publishedAt": "2025-10-10T20:15:54Z",
+      "content": "Son défi est immense, mais sa dévotion à Emmanuel Macron et son abnégation de « moine-soldat », comme il se définit lui-même, ont fait de lui le choix numéro 1 du président de la République. Sébastie… [+2294 chars]"
+    }
+  ]
+}

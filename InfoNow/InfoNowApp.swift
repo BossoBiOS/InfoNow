@@ -14,7 +14,7 @@ struct InfoNowApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

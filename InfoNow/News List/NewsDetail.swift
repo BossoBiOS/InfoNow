@@ -36,7 +36,6 @@ struct NewsDetail: View {
         }
         .onDisappear {
             viewModel.selectedArticle = nil
-            viewModel.associatedImage = nil
         }
     }
 }
@@ -54,7 +53,7 @@ extension NewsDetail {
                 .font(.largeTitle)
                 .bold()
             
-            Text("Par ")
+            Text("TX_0006")
                 .font(.subheadline)
                 .foregroundStyle(Color.secondary)
             +
@@ -75,7 +74,7 @@ extension NewsDetail {
                     HStack {
                         Image(systemName: "link")
                             .foregroundStyle(Color.black.opacity(0.8))
-                        Text("Découvrir l’article complet")
+                        Text("TX_0005")
                             .foregroundStyle(Color.black.opacity(0.8))
                             .fontWeight(.medium)
                             .padding(.horizontal, 5)

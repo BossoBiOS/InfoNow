@@ -29,33 +29,9 @@
 		B72A4FA82E9BB6FF00BBF0D9 /* InfoNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfoNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B72A506B2E9C132000BBF0D9 /* Exceptions for "InfoNow" folder in "InfoNow" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				MockedFetchResponce.json,
-			);
-			target = B72A4F8B2E9BB6FE00BBF0D9 /* InfoNow */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		B72A506C2E9C132000BBF0D9 /* Exceptions for "InfoNow" folder in "Compile Sources" phase from "InfoNow" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = B72A4F882E9BB6FE00BBF0D9 /* Sources */;
-			membershipExceptions = (
-				MockedFetchResponce.json,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B72A4F8E2E9BB6FE00BBF0D9 /* InfoNow */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B72A506B2E9C132000BBF0D9 /* Exceptions for "InfoNow" folder in "InfoNow" target */,
-				B72A506C2E9C132000BBF0D9 /* Exceptions for "InfoNow" folder in "Compile Sources" phase from "InfoNow" target */,
-			);
 			path = InfoNow;
 			sourceTree = "<group>";
 		};
@@ -211,11 +187,11 @@
 				};
 			};
 			buildConfigurationList = B72A4F872E9BB6FE00BBF0D9 /* Build configuration list for PBXProject "InfoNow" */;
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				fr,
 			);
 			mainGroup = B72A4F832E9BB6FE00BBF0D9;
 			minimizedProjectReferenceProxies = 1;
@@ -353,6 +329,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -410,6 +387,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

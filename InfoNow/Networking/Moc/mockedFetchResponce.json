@@ -1,10 +1,3 @@
-//
-//  MockedFetchResponce.swift
-//  InfoNow
-//
-//  Created by Stefan kund on 12/10/2025.
-//
-
 {
   "status": "ok",
   "totalResults": 5132,
@@ -44,7 +37,7 @@
       "title": "EN DIRECT, Sébastien Lecornu, premier ministre : « Je n’ai pas d’autre ambition que de sortir de ce moment qui est très pénible pour tout le monde »",
       "description": "Renommé à Matignon vendredi soir, l’ancien ministre des armées doit constituer son équipe d’ici à lundi pour commencer à temps l’examen du budget 2026. Pour sa première prise de parole, il a dit vouloir mettre la lutte contre l’insécurité et la délinquance à …",
       "url": "https://www.lemonde.fr/politique/live/2025/10/11/en-direct-sebastien-lecornu-premier-ministre-je-n-ai-pas-d-autre-ambition-que-de-sortir-de-ce-moment-qui-est-tres-penible-pour-tout-le-monde_6645554_823448.html",
-      "urlToImage": "https://img.lemde.fr/2025/10/11/119/0/2048/1024/1440/720/60/0/5ed2a6a_upload-1-ehnllythfexi-l1007136.jpg",
+      "urlToImage": "",
       "publishedAt": "2025-10-11T10:51:28Z",
       "content": "Horizons réunit de nouveau son bureau politique, élargi à tous les parlementaires, à 11 h 30 en visioconférence, après la reconduction de Sébastien Lecornu à Matignon. A la sortie de la réunion à lEl… [+1179 chars]"
     },
@@ -57,7 +50,7 @@
       "title": "Trafic de stupéfiants : Huit personnes mises en examen, dont une avocate",
       "description": "Les investigations ont mis à jour « un réseau organisé » d’importation de cannabis « depuis l’Espagne à destination du nord de la France et des agglomérations de Rouen et du Havre »",
       "url": "https://www.20minutes.fr/societe/4178680-20251011-trafic-stupefiants-huit-personnes-mises-examen-dont-avocate",
-      "urlToImage": "https://img.20mn.fr/SB84OCm5SCiOhifOjyv61yk/1444x920_illustration-d-agents-de-police-nationale-lors-d-une-operation-avec-la-population",
+      "urlToImage": null,
       "publishedAt": "2025-10-11T10:35:10Z",
       "content": "Un trafic international qui durait depuis le début de lannée entre lEspagne et le nord de la France. Huit personnes, dont une avocate du barreau de Rouen, ont été mises en examen et placées en détent… [+2477 chars]"
     },

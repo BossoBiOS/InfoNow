@@ -8,14 +8,14 @@
 import Foundation
 import UIKit
 
-struct Articles: Decodable {
+struct Articles: Codable {
     let status: String
     let totalResults: Int?
     let articles: [Article]
     let message: String?
 }
 
-struct Article: Decodable, Identifiable, Equatable {
+struct Article: Codable, Identifiable, Equatable {
     static func == (lhs: Article, rhs: Article) -> Bool {
         lhs.id == lhs.id
     }
@@ -32,7 +32,7 @@ struct Article: Decodable, Identifiable, Equatable {
     let content: String?
 }
 
-struct Source: Decodable {
+struct Source: Codable {
     let id: String?
     let name: String?
 }

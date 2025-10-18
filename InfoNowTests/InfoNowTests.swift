@@ -10,27 +10,73 @@ import XCTest
 
 final class InfoNowTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    
+    @MainActor func test_newsFetch_success() async throws {
+        
+        MocManager.shared.addMoc(mocScenario: .success)
+        let vm = NewsListViewModel()
+        
+        try? await Task.sleep(for: .seconds(1))
+        
+        XCTAssertEqual(vm.newsList.count, 100)
+        XCTAssertEqual(vm.totalArticles, 100)
+        
+        guard let first = vm.newsList.first
+        else { XCTFail("Couldn't load first result.") ; return }
+        
+        XCTAssertEqual(first.title, "Lola Young porte plainte contre le producteur de son tube « Messy »")
+        XCTAssertEqual(first.description, "Le producteur revendiquerait indûment les crédits d’écriture de quatre des titres de la chanteuse britannique")
+        XCTAssertEqual(first.content, "Lola Young ne se laissera pas flouer aussi facilement. La chanteuse britannique de 24 ans a déposé une plainte devant le tribunal de la propriété intellectuelle de Londres contre Carter Lang, lun des… [+1180 chars]")
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        XCTAssertEqual(first.author, "20 Minutes avec agences")
+        XCTAssertEqual(first.publishedAt, "2025-10-11T11:02:36Z")
+        XCTAssertEqual(first.source.name, "20 Minutes")
+        XCTAssertEqual(first.url, "https://www.20minutes.fr/arts-stars/people/4178338-20251011-lola-young-porte-plainte-contre-producteur-tube-messy")
+        XCTAssertEqual(first.urlToImage, "https://img.20mn.fr/7yRX_nH4TVa_TXkGbhD90Sk/1444x920_celebrities-arrive-at-the-brit-awards-2025-at-intercontinental-hotel-london-featuring-lola-young-where-london-united-kingdom-when-01-mar-2025-credit-cover-images")
+        XCTAssertTrue(vm.newsListViewState == .loaded)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    @MainActor func test_searchResult_emptyResult() async throws {
+        
+        MocManager.shared.addMoc(mocScenario: .empty)
+        let vm = NewsListViewModel()
+        
+        try? await Task.sleep(for: .seconds(1))
+        
+        XCTAssertEqual(vm.newsList.count, 0)
+        XCTAssertEqual(vm.totalArticles, 0)
+        
+        XCTAssertTrue(vm.newsListViewState == .empty)
+        
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    @MainActor func test_searchResult_serverError() async throws {
+        MocManager.shared.addMoc(mocScenario: .serverError)
+        
+        let vm = NewsListViewModel()
+        
+        try? await Task.sleep(for: .seconds(1))
+        
+        XCTAssertTrue(vm.newsListViewState == .error)
+    }
+    
+    @MainActor func test_open_and_close_article() async throws {
+        
+        MocManager.shared.addMoc(mocScenario: .success)
+        
+        let vm = NewsListViewModel()
+        
+        try? await Task.sleep(for: .seconds(1))
+        
+        guard let first = vm.newsList.first
+        else { XCTFail("Couldn't load first result.") ; return }
+        
+        vm.selectArticle(article: first)
+        XCTAssertNotNil(vm.selectedArticle)
+        
+        vm.selectedArticle = nil
+        XCTAssertNil(vm.selectedArticle)
+        
     }
 
 }

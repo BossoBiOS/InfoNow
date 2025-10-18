@@ -24,12 +24,12 @@ struct UniversalApiClient: Sendable {
         self.middlewares = middlewares
     }
     
-    func send<OperationInput, OperationOutput>(
-        input: OperationInput,
+    func send<OperationOutput>(
+        input: String?,
         route: APIOperations.Route.Type,
-        urlRequest: (OperationInput) throws -> (URLRequest),
+        urlRequest: (String?) throws -> (URLRequest),
         decoder: @Sendable (Data?) async throws -> OperationOutput
-    ) async throws -> OperationOutput where OperationInput: Sendable, OperationOutput: Sendable {
+    ) async throws -> OperationOutput where OperationOutput: Sendable {
         
         let (request): (URLRequest) = try urlRequest(input)
         

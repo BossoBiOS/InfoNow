@@ -13,7 +13,7 @@ struct URLSessionTransport: APITransport {
         
         var finalRequest = requestURL
         finalRequest.url = URL(string: requestURL.url?.relativeString ?? "", relativeTo: serverUrl)
-        
+        print("url \(finalRequest.url?.absoluteString)")
         let (data, response) = try await URLSession.shared.data(for: finalRequest)
         
         guard let httpResponse = response as? HTTPURLResponse else {

@@ -16,23 +16,16 @@ struct MainView: View {
     @Environment(\.verticalSizeClass) private var verticalSizeClass
     
     @State private var openDetailView: Bool = false
+    @State private var openSearchView: Bool = false
     
     var body: some View {
-        switch viewModel.newsListViewState {
-        case .loading:
-            loadingView
-        case .loaded:
-            VStack {
-                HStack {
-                    Text("TX_0008")
-                        .font(.headline)
-                        .fontWeight(.bold)
-                    Spacer()
-                    Text(String.localizedStringWithFormat(NSLocalizedString("TX_0007", comment: "... articles"), "\(viewModel.totalArticles)"))
-                        .font(.caption)
-                }
-                .foregroundStyle(Color.secondary)
-                .padding()
+        VStack {
+            self.toolBar
+            
+            switch viewModel.newsListViewState {
+            case .loading:
+                loadingView
+            case .loaded:
                 if UIDevice().isIpad {
                     // IPAD SCREEN
                     if horizontalSizeClass == .regular {
@@ -43,43 +36,41 @@ struct MainView: View {
                 } else {
                     // IPHONE SCREEN
                     NewsList()
-                
                 }
+            case .empty:
+                self.emptyOrErroView(localizedTitre: "TX_0010")
+            case .error:
+                self.emptyOrErroView(localizedTitre: "TX_0011")
             }
-            .environmentObject(viewModel)
-            .onChange(of: viewModel.selectedArticle) { oldValue, newValue in
-                if newValue != nil {
-                    self.openDetailView = true
-                }
-            }
-            .refreshable {
-                // Pull to refrech
-                viewModel.loadNews()
-            }
-            .fullScreenCover(isPresented: $openDetailView) {
-                NewsDetail(isOpen: $openDetailView)
-                    .environmentObject(viewModel)
-            }
-            .mocMenu(mocEscapeAction: {viewModel.loadNews()})
-        case .empty:
-            emptyOrErroView(localizedTitre: "TX_0010")
-        case .error:
-            emptyOrErroView(localizedTitre: "TX_0011")
         }
+        .environmentObject(viewModel)
+        .onChange(of: viewModel.selectedArticle) { oldValue, newValue in
+            if newValue != nil {
+                self.openDetailView = true
+            }
+        }
+        .refreshable {
+            // Pull to refrech
+            viewModel.loadNews(type: viewModel.currentLoadNewsType)
+        }
+        .fullScreenCover(isPresented: $openDetailView) {
+            NewsDetail(isOpen: $openDetailView)
+                .environmentObject(viewModel)
+        }
+        .mocMenu(mocEscapeAction: {viewModel.loadNews()})
     }
 }
 
 extension MainView {
     
     @ViewBuilder func emptyOrErroView(localizedTitre: LocalizedStringKey) -> some View {
-        
         ZStack {
             VStack {
                 Text(localizedTitre)
                     .font(.title)
                     .multilineTextAlignment(.center)
                 Button {
-                    viewModel.loadNews()
+                    viewModel.loadNews(type: viewModel.currentLoadNewsType)
                 } label: {
                     Text("TX_0012")
                         .padding()
@@ -92,8 +83,6 @@ extension MainView {
         }
         .ignoresSafeArea()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .mocMenu(mocEscapeAction: {viewModel.loadNews()})
-        
     }
     
     @ViewBuilder var loadingView: some View {
@@ -106,33 +95,75 @@ extension MainView {
                     .customRotationEffect()
             }
         }
+        .ignoresSafeArea()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+    
+    @ViewBuilder var toolBar: some View {
+        HStack {
+            Menu {
+                Button {
+                    openSearchView = false
+                    viewModel.loadNews()
+                } label: {
+                    Text("TX_0008")
+                }
+                Button {
+                    openSearchView = false
+                    viewModel.loadNews(type: .top)
+                } label: {
+                    Text("TX_0013").bold()
+                }
+                Button {
+                    openSearchView = true
+                } label: {
+                    Text("TX_0015").bold()
+                }
+            } label: {
+                Image(systemName: "filemenu.and.selection").padding(10).background(Circle().foregroundStyle(Color.blue.opacity(0.1)))
+            }
+
+            if openSearchView {
+                HStack {
+                    Image(systemName: "text.magnifyingglass")
+                        .foregroundColor(.gray)
+                    
+                    TextField("TX_0014", text: $viewModel.searchSope)
+                        .onSubmit {
+                            viewModel.loadNews(type: .search)
+                        }
+                        .textFieldStyle(PlainTextFieldStyle())
+                        .autocorrectionDisabled(true)
+                        .textInputAutocapitalization(.never)
+                        .submitLabel(.search)
+                    
+                    
+                    if !viewModel.searchSope.isEmpty {
+                        Button(action: {
+                            viewModel.searchSope = ""
+                        }) {
+                            Image(systemName: "xmark.circle.fill")
+                                .foregroundColor(.gray)
+                        }
+                    }
+                }
+                .padding(10)
+                .background(RoundedRectangle(cornerRadius: 15).foregroundStyle(Color.blue.opacity(0.07)))
+            } else {
+                Text(viewModel.currentLoadNewsType == .all ? "TX_0008" : (viewModel.currentLoadNewsType == .top ? "TX_0016" : ""))
+                    .font(.headline)
+                    .fontWeight(.bold)
+                Spacer()
+                Text(String.localizedStringWithFormat(NSLocalizedString("TX_0007", comment: "... articles"), "\(viewModel.totalArticles)"))
+                    .font(.caption)
+            }
+            }
+        .foregroundStyle(Color.secondary)
+        .padding()
     }
     
 }
 
-struct RotationEffect: ViewModifier {
-    @State var rotationAngle = 0.0
-    
-    func body(content: Content) -> some View {
-        content
-            .rotationEffect(.degrees(rotationAngle))
-            .onAppear {
-                withAnimation(.linear(duration: 4).repeatForever(autoreverses: false)) {
-                    rotationAngle = 360
-                }
-            }
-            .onDisappear {
-                rotationAngle = 0.0
-            }
-    }
-}
-extension View {
-    
-    func customRotationEffect() -> some View {
-        modifier(RotationEffect())
-    }
-    
-}
 
 
 #Preview {

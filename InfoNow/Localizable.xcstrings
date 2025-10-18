@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "fr",
   "strings" : {
+    "" : {
+
+    },
     "Cancel" : {
 
     },
@@ -138,6 +141,49 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Essayez à nouveau"
+          }
+        }
+      }
+    },
+    "TX_0013" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titres à la une"
+          }
+        }
+      }
+    },
+    "TX_0014" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des actualités..."
+          }
+        }
+      }
+    },
+    "TX_0015" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
+          }
+        }
+      }
+    },
+    "TX_0016" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titres à la une"
           }
         }
       }

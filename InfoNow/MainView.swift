@@ -102,31 +102,38 @@ extension MainView {
     @ViewBuilder var toolBar: some View {
         HStack {
             Menu {
-                Button {
-                    openSearchView = false
-                    viewModel.loadNews()
-                } label: {
-                    Text("TX_0008")
-                }
-                Button {
-                    openSearchView = false
-                    viewModel.loadNews(type: .top)
-                } label: {
-                    Text("TX_0013").bold()
-                }
-                Button {
-                    openSearchView = true
-                } label: {
-                    Text("TX_0015").bold()
+                VStack {
+                    Button {
+                        openSearchView = false
+                        viewModel.loadNews()
+                    } label: {
+                        Text("TX_0008")
+                    }
+                    .accessibilityIdentifier("menu_item_00")
+                    Button {
+                        openSearchView = false
+                        viewModel.loadNews(type: .top)
+                    } label: {
+                        Text("TX_0013").bold()
+                    }
+                    .accessibilityIdentifier("menu_item_01")
+                    Button {
+                        openSearchView = true
+                    } label: {
+                        Text("TX_0015").bold()
+                    }
+                    .accessibilityIdentifier("menu_item_02")
                 }
             } label: {
                 Image(systemName: "filemenu.and.selection").padding(10).background(Circle().foregroundStyle(Color.blue.opacity(0.1)))
             }
+            .accessibilityIdentifier("button_menu")
 
             if openSearchView {
                 HStack {
                     Image(systemName: "text.magnifyingglass")
                         .foregroundColor(.gray)
+                        .accessibilityIdentifier("image_search")
                     
                     TextField("TX_0014", text: $viewModel.searchSope)
                         .onSubmit {
@@ -136,6 +143,7 @@ extension MainView {
                         .autocorrectionDisabled(true)
                         .textInputAutocapitalization(.never)
                         .submitLabel(.search)
+                        .accessibilityIdentifier("textField_search")
                     
                     
                     if !viewModel.searchSope.isEmpty {
@@ -145,6 +153,7 @@ extension MainView {
                             Image(systemName: "xmark.circle.fill")
                                 .foregroundColor(.gray)
                         }
+                        .accessibilityIdentifier("clear_search_text")
                     }
                 }
                 .padding(10)
@@ -153,9 +162,11 @@ extension MainView {
                 Text(viewModel.currentLoadNewsType == .all ? "TX_0008" : (viewModel.currentLoadNewsType == .top ? "TX_0016" : ""))
                     .font(.headline)
                     .fontWeight(.bold)
+                    .accessibilityIdentifier("text_titre")
                 Spacer()
                 Text(String.localizedStringWithFormat(NSLocalizedString("TX_0007", comment: "... articles"), "\(viewModel.totalArticles)"))
                     .font(.caption)
+                    .accessibilityIdentifier("text_nbOfNews")
             }
             }
         .foregroundStyle(Color.secondary)

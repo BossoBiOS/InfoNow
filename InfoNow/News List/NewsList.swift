@@ -39,6 +39,7 @@ struct NewsListIpad: View {
                       spacing: 50) {
                 ForEach(viewModel.newsList) { article in
                     NewsListUniversalCell(article: article, isIpadView: true, imageFrameSize: gridCellSize)
+                        .accessibilityIdentifier("\(article.title ?? "pas de titre")") // only work in moc enviroment
                 }
             }
                       

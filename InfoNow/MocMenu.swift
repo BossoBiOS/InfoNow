@@ -14,7 +14,7 @@ struct MocMenu: ViewModifier {
     func body(content: Content) -> some View {
 #if DEBUG
         content
-            .onTapGesture(count: 3) {
+            .onTapGesture(count: 2) {
                 showMocMenu = true
             }
             .overlay {

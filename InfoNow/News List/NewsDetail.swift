@@ -26,6 +26,7 @@ struct NewsDetail: View {
                         .frame(width: 35, height: 35)
                         .foregroundStyle(.black.opacity(0.8))
                 }
+                .accessibilityIdentifier("close_button")
                 Spacer()
             }.padding(.horizontal)
             Divider()
@@ -86,6 +87,7 @@ extension NewsDetail {
                     )
                     
                 }
+                .accessibilityIdentifier("urlLink_button")
                 Spacer()
                 Button {
                     

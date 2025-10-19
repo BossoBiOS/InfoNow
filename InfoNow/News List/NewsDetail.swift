@@ -12,14 +12,16 @@ struct NewsDetail: View {
     @Environment(\.openURL) private var openURL
     @EnvironmentObject var viewModel: NewsListViewModel
     @Binding var isOpen: Bool
-    
+    @State private var showWebView: Bool = false
     var body: some View {
         VStack {
             HStack {
                 Button {
-                    
-                    isOpen = false
-                   
+                    if showWebView {
+                        showWebView = false
+                    } else {
+                        isOpen = false
+                    }
                 } label: {
                     Image(systemName: "arrow.backward.to.line.circle")
                         .resizable()
@@ -28,6 +30,19 @@ struct NewsDetail: View {
                 }
                 .accessibilityIdentifier("close_button")
                 Spacer()
+                if showWebView {
+                    Button {
+                        showWebView = false
+                        if let url = URL(string: viewModel.selectedArticle!.url ?? "") {
+                            self.openURL(url)
+                        }
+                    } label: {
+                        Image(systemName: "safari")
+                            .resizable()
+                            .frame(width: 35, height: 35)
+                            .foregroundStyle(.black.opacity(0.8))
+                    }
+                }
             }.padding(.horizontal)
             Divider()
 
@@ -65,11 +80,7 @@ extension NewsDetail {
             HStack(spacing: .ulpOfOne) {
                 
                 Button {
- 
-                    if let url = URL(string: article.url ?? "") {
-                        self.openURL(url)
-                    }
-                    // Open link
+                    showWebView = true
                 } label: {
                     
                     HStack {
@@ -139,6 +150,11 @@ extension NewsDetail {
         .ignoresSafeArea()
         .frame(maxWidth: .infinity)
         .background(Color.gray.opacity(0.04))
+        .overlay {
+            if showWebView {
+                WebView(url: URL(string: article.url!)!, showWebView: $showWebView)
+            }
+        }
     }
 }
 

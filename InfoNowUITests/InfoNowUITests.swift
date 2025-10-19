@@ -173,6 +173,16 @@ final class InfoNowUITests: XCTestCase {
         
         // Verify that the external URL link button is visible
         XCTAssertTrue(urlLinkButton.exists, "Detail View 'URL link' button wasn't found")
+        
+        urlLinkButton.tap()
+        // Navigate to NewsDetailView in your app if needed
+        let webView = app.webViews["newsWebView"]
+        XCTAssertTrue(webView.waitForExistence(timeout: 4), "WebView wasn't found")
+        let openInSafaryButton = app.buttons["openInSafari_button"]
+        XCTAssertTrue(openInSafaryButton.waitForExistence(timeout: 6), "openInSafary Button wasn't found")
+        
+        closeButton.tap()
+        XCTAssertFalse(openInSafaryButton.exists, "openInSafary Button was found")
     }
 
 }

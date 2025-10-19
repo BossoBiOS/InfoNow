@@ -42,6 +42,7 @@ struct NewsDetail: View {
                             .frame(width: 35, height: 35)
                             .foregroundStyle(.black.opacity(0.8))
                     }
+                    .accessibilityIdentifier("openInSafari_button")
                 }
             }.padding(.horizontal)
             Divider()

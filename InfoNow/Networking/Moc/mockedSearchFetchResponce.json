@@ -1,0 +1,409 @@
+{
+  "status": "ok",
+  "totalResults": 31,
+  "articles": [
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Emma Roth",
+      "title": "Latest iOS beta hints at notifications on non-Apple watches",
+      "description": "Apple could soon improve the interoperability between iPhones and third-party smartwatches. The latest iOS 26.1 beta hints at a new “notification forwarding” feature that could surface iPhone notifications on a non-Apple device or accessory, as spotted by Mac…",
+      "url": "https://www.theverge.com/news/784477/apple-ios-26-beta-third-party-smartwatch-notifications",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/257844_Samsung_Unpacked_July_2025_AJohnson_0010.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+      "publishedAt": "2025-09-24T14:09:19Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe EU has ordered Apple to make its iPhones work better with third-party accessories.\r\nThe EU has ordered Apple to make its iPhones work better with third-party… [+2896 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "James Pero",
+      "title": "iOS 26 Just Made Driving Like an Asshole a Lot Easier",
+      "description": "Want to keep your AirPods in while driving? iOS 26 has your reckless back.",
+      "url": "https://gizmodo.com/ios-26-just-made-driving-like-an-asshole-a-lot-easier-2000669905",
+      "urlToImage": "https://gizmodo.com/app/uploads/2025/09/ios26-liquid-glass-14-1200x675.jpg",
+      "publishedAt": "2025-10-08T20:12:15Z",
+      "content": "There are lots of ways to drive like a complete and utter douche bag; Teslas, for instance! Autopilot, the company’s driver assist, is an express ticket to distracted driving that has resulted in som… [+3083 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jess Weatherbed",
+      "title": "Epic says it has proof Apple was scaring users off third-party app stores",
+      "description": "The Epic Games Store has seen an uptick in downloads since the EU’s Digital Markets Act (DMA) prompted Apple to streamline its process for installing third-party app marketplaces, according to a new blog published by Epic. Stats shared by the gaming software …",
+      "url": "https://www.theverge.com/news/789421/epic-games-store-ios-android-installations",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK108_EPIC_GAMES_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2025-10-01T09:00:23Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nBut Google still makes them intentionally difficult to install.\r\nBut Google still makes them intentionally difficult to install.\r\nby\r\nJess WeatherbedClose\r\nJess … [+3194 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Stops Signing iOS 18.6.2, iOS 26 Downgrades Now Impossible",
+      "description": "Apple has stopped signing iOS 18.6.2, which means that if you've upgraded to iOS 26, you're no longer able to downgrade to a version of iOS 18. Apple released iOS 26 a week ago.\n\n\n\n\n\nWhen software is \"signed,\" it means that it has passed a server-side verific…",
+      "url": "https://www.macrumors.com/2025/09/22/apple-stops-signing-ios-18-6-2/",
+      "urlToImage": "https://images.macrumors.com/t/AvsVlDLYUDnH9IDgGXWrzEf6q7k=/2500x/article-new/2025/09/iOS-26-on-iPhone-Feature.jpg",
+      "publishedAt": "2025-09-22T22:48:08Z",
+      "content": "Apple has stopped signing iOS 18.6.2, which means that if you've upgraded to iOS 26, you're no longer able to downgrade to a version of iOS 18. Apple released iOS 26 a week ago.\r\nWhen software is \"si… [+597 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Hayden Field",
+      "title": "OpenAI’s new social video app will let you deepfake your friends",
+      "description": "OpenAI has a new version of its Sora AI video generator, and it’s being launched alongside a new social video app, also called Sora, on iOS. The app, currently invite-only, resembles TikTok. But instead of encouraging people to stitch together duets, it asks …",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/788786/openais-new-ai-sora-ios-social-video-app-will-let-you-deepfake-your-friends",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/sora2_anime.jpg?quality=90&strip=all&crop=0%2C3.3643591235214%2C100%2C93.271281752957&w=1200",
+      "publishedAt": "2025-09-30T17:06:39Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe app is called Sora, and its available on iOS.\r\nThe app is called Sora, and its available on iOS.\r\nby\r\nHayden FieldClose\r\nHayden Field\r\nPosts from this author… [+2690 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Jacob Roach",
+      "title": "1Password Review (2025): Gold Standard Security",
+      "description": "1Password has been around for decades, and it still manages to stay on the cutting edge of keeping your logins safe.",
+      "url": "https://www.wired.com/review/1password-2025/",
+      "urlToImage": "https://media.wired.com/photos/68cd675ff80708a87747e7f2/191:100/w_1280,c_limit/1password-watchtower.png",
+      "publishedAt": "2025-09-20T13:00:00Z",
+      "content": "Password managers are spotty on Android and iOS in general, and 1Password isnt above that issue. Id estimate somewhere around 10 to 15 percent of the fields I encounter on mobile just dont register w… [+2840 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "James Pero",
+      "title": "Why Meta’s Ray-Ban Display May Never Replace Your iPhone",
+      "description": "There's one big hurdle between Meta and making a device that actually stands on its own.",
+      "url": "https://gizmodo.com/meta-ray-ban-display-imessage-iphone-2000662934",
+      "urlToImage": "https://gizmodo.com/app/uploads/2025/09/ray-ban-glasses-top-down-1200x675.png",
+      "publishedAt": "2025-09-24T14:38:48Z",
+      "content": "When I tried Meta’s new Ray-Ban Displaythe company’s first pair of smart glasses with a screen in themmy first thought was: these are going to be big. And my second thought was: how the hell are thes… [+3767 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "iOS 26.1 Adds New Apple Intelligence Languages and Expands AirPods Live Translation",
+      "description": "With iOS 26.1, Apple Intelligence is gaining support for additional languages, including Danish, Dutch, Norwegian, Portuguese (Portugal), Swedish, Turkish, Chinese (Traditional), and Vietnamese.\n\n\n\n\n\nApple announced plans to expand the languages that can be u…",
+      "url": "https://www.macrumors.com/2025/09/22/ios-26-1-apple-intelligence-languages/",
+      "urlToImage": "https://images.macrumors.com/t/9QYrKGN7DCjAIIQvkbgkjuswS_0=/2500x/article-new/2024/09/Apple-Intelligence-General-Feature-2.jpg",
+      "publishedAt": "2025-09-22T18:15:16Z",
+      "content": "With iOS 26.1, Apple Intelligence is gaining support for additional languages, including Danish, Dutch, Norwegian, Portuguese (Portugal), Swedish, Turkish, Chinese (Traditional), and Vietnamese.\r\nApp… [+1108 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Andrew Liszewski",
+      "title": "It costs $895 per year to get American Express’ premium app theme",
+      "description": "Following a significant price bump in 2021 from $550 to $695, American Express once again increased the annual fee for its Platinum card to $895 last week, making it one of the most expensive credit cards you can sign up for. To soften the blow when the price…",
+      "url": "https://www.theverge.com/news/785639/american-express-platinum-credit-card-perks-ios-app-theme",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/amex_app.jpg?quality=90&strip=all&crop=0,10.714830333089,100,78.570339333822",
+      "publishedAt": "2025-09-25T13:34:45Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nNew perks coming to its pricier Platinum card include switching the apps theme from one dark color to another.\r\nNew perks coming to its pricier Platinum card inc… [+3008 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Fixes Alarms in iOS 26.1",
+      "description": "With the second beta of iOS 26.1, Apple updated the design of alarms set on the iPhone, making them harder to dismiss than before. \n\n\n\n\n\nStopping an alarm in iOS 26.1 beta 2 requires a new Slide to Stop gesture rather than a simple tap. You can continue to ta…",
+      "url": "https://www.macrumors.com/2025/10/06/apple-fixes-alarms-in-ios-26-1/",
+      "urlToImage": "https://images.macrumors.com/t/ZTCsFD26dZxVbI6Vw64wR1RgAS8=/2000x/article-new/2025/10/ios-26-1-slide-to-stop.jpg",
+      "publishedAt": "2025-10-06T18:56:27Z",
+      "content": "With the second beta of iOS 26.1, Apple updated the design of alarms set on the iPhone, making them harder to dismiss than before. \r\nStopping an alarm in iOS 26.1 beta 2 requires a new Slide to Stop … [+866 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Everything New in iOS 26.1 Beta 2",
+      "description": "Apple released the second beta of iOS 26.1 and iPadOS 26.1, introducing useful changes to alarms, multitasking on the iPad, and more. There are also subtle tweaks to some of the Liquid Glass design elements as Apple continues to refine iOS 26.\n\n\n\n\n\nAlarms and…",
+      "url": "https://www.macrumors.com/2025/10/06/ios-26-1-beta-2-features/",
+      "urlToImage": "https://images.macrumors.com/t/hA8-InYSASCV9BmL5Loq8C5XKIw=/2500x/article-new/2025/09/iOS-26.1-Feature.jpg",
+      "publishedAt": "2025-10-06T22:54:00Z",
+      "content": "Apple released the second beta of iOS 26.1 and iPadOS 26.1, introducing useful changes to alarms, multitasking on the iPad, and more. There are also subtle tweaks to some of the Liquid Glass design e… [+2840 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "iOS 26: Use Live Translation in Messages",
+      "description": "In iOS 26, seamless multilingual conversations in Messages are just a few taps away, thanks to Apple's new Live Translation feature. When chatting with friends or colleagues who speak different languages, you can now see instant translations without breaking …",
+      "url": "https://www.macrumors.com/how-to/ios-live-translation-in-messages/",
+      "urlToImage": "https://images.macrumors.com/t/lH1h5qR16ihiaywpFC574rpB7L8=/1920x/article-new/2025/09/messages-translate-ios.jpg",
+      "publishedAt": "2025-09-24T10:55:24Z",
+      "content": "In iOS 26, seamless multilingual conversations in Messages are just a few taps away, thanks to Apple's new Live Translation feature. When chatting with friends or colleagues who speak different langu… [+1811 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Everything New in iOS 26.1 Beta 1",
+      "description": "Apple released the first beta of iOS 26.1 today, just a week after launching iOS 26. iOS 26.1 mainly adds new languages to Apple Intelligence, but there are a few other features that are worth knowing about.\n\n\n\n\n\nNew Apple Intelligence Languages\n\n‌Apple Intel…",
+      "url": "https://www.macrumors.com/2025/09/22/ios-26-1-beta-1-features/",
+      "urlToImage": "https://images.macrumors.com/t/hA8-InYSASCV9BmL5Loq8C5XKIw=/2500x/article-new/2025/09/iOS-26.1-Feature.jpg",
+      "publishedAt": "2025-09-22T19:44:34Z",
+      "content": "Apple released the first beta of iOS 26.1 today, just a week after launching iOS 26. iOS 26.1 mainly adds new languages to Apple Intelligence, but there are a few other features that are worth knowin… [+1445 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "Apple Preparing iOS 26.0.2 Update for iPhones",
+      "description": "Apple's software engineers are internally testing iOS 26.0.2, according to MacRumors logs, which have been a reliable indicator of upcoming iOS versions.\n\n\n\n\n\niOS 26.0.2 will likely be a minor update that addresses bugs and/or security vulnerabilities, but we…",
+      "url": "https://www.macrumors.com/2025/10/11/apple-preparing-ios-26-0-2/",
+      "urlToImage": "https://images.macrumors.com/t/p817t4gw5ljW1ROSxfadhn3mJew=/2500x/article-new/2025/06/iOS-26-Feature.jpg",
+      "publishedAt": "2025-10-12T01:59:47Z",
+      "content": "Apple's software engineers are internally testing iOS 26.0.2, according to MacRumors logs, which have been a reliable indicator of upcoming iOS versions.\r\niOS 26.0.2 will likely be a minor update tha… [+1189 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "iOS 26.0.2 Update for iPhones Coming Soon",
+      "description": "Apple's software engineers continue to internally test iOS 26.0.2, according to MacRumors logs, which have been a reliable indicator of upcoming iOS versions.\n\n\n\n\n\niOS 26.0.2 will be a minor update that addresses bugs and/or security vulnerabilities, but we d…",
+      "url": "https://www.macrumors.com/2025/10/17/ios-26-0-2-coming-soon/",
+      "urlToImage": "https://images.macrumors.com/t/8As-PhnQAdZfVxh8kRFh_5YZhbQ=/2500x/article-new/2025/10/iOS-26.0.2-Feature.jpg",
+      "publishedAt": "2025-10-17T14:35:00Z",
+      "content": "Apple's software engineers continue to internally test iOS 26.0.2, according to MacRumors logs, which have been a reliable indicator of upcoming iOS versions.\r\niOS 26.0.2 will be a minor update that … [+750 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "Apple Continues to Prepare iOS 26.0.1 With Multiple Bug Fixes Expected",
+      "description": "Apple is preparing to release iOS 26.0.1, according to a private account on X with a proven track record of sharing information about future iOS versions.\n\n\n\n\n\nThe account initially said iOS 26.0.1 would have a build number of 23A350, but they now expect the …",
+      "url": "https://www.macrumors.com/2025/09/28/ios-26-0-1-what-to-expect/",
+      "urlToImage": "https://images.macrumors.com/t/QJs0KuD-HEuIAd8ioge9O3lG8As=/2500x/article-new/2025/09/iOS-26.0.1-Feature.jpg",
+      "publishedAt": "2025-09-28T20:30:00Z",
+      "content": "Apple is preparing to release iOS 26.0.1, according to a private account on X with a proven track record of sharing information about future iOS versions.\r\nThe account initially said iOS 26.0.1 would… [+800 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Day One iOS 26 Updates Required for All iPhone 17 Models",
+      "description": "Apple today released a new version of iOS 26 (23A345) that's available for the iPhone 17 Pro and ‌iPhone 17 Pro‌ Max. Reviewers who already have a device will be able to update now, while new iPhone 17 owners will need to update when receiving their devices s…",
+      "url": "https://www.macrumors.com/2025/09/18/ios-26-day-one-updates-required/",
+      "urlToImage": "https://images.macrumors.com/t/Bj3ZKPorEIWXaGF-hHSmAKz1G7o=/2500x/article-new/2025/08/iOS-26-Glass-Feature.jpg",
+      "publishedAt": "2025-09-18T17:38:56Z",
+      "content": "Apple today released a new version of iOS 26 (23A345) that's available for the iPhone 17 Pro and ‌iPhone 17 Pro‌ Max. Reviewers who already have a device will be able to update now, while new iPhone … [+892 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Seeds Second Betas of iOS 26.1, iPadOS 26.1, macOS Tahoe 26.1 and More",
+      "description": "Apple today provided developers with the second betas of upcoming iOS 26.1, iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, watchOS 26.1, and visionOS 26.1 updates for testing purposes. The second betas come two weeks after Apple released the first betas.\n\n\n\n\n\nThe …",
+      "url": "https://www.macrumors.com/2025/10/06/apple-seeds-ios-26-1-beta-2/",
+      "urlToImage": "https://images.macrumors.com/t/hA8-InYSASCV9BmL5Loq8C5XKIw=/2500x/article-new/2025/09/iOS-26.1-Feature.jpg",
+      "publishedAt": "2025-10-06T17:07:41Z",
+      "content": "Apple today provided developers with the second betas of upcoming iOS 26.1, iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, watchOS 26.1, and visionOS 26.1 updates for testing purposes. The second betas co… [+898 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Provides Fix for iMessage Activation Bug in iOS 26",
+      "description": "Apple this week provided troubleshooting steps for iPhone owners who are unable to activate iMessage with a phone number in iOS 26.\n\n\n\n\n\nAccording to Apple, some customers might not be able to activate iMessage with a phone number if there is an inactive SIM …",
+      "url": "https://www.macrumors.com/2025/10/02/ios-26-imessage-activation-bug-fix/",
+      "urlToImage": "https://images.macrumors.com/t/uxQTneMJ1y5HVFjQ4Gx2FHs9UvI=/2500x/article-new/2025/07/iOS-26-Messages-Feature-2-1.jpg",
+      "publishedAt": "2025-10-02T16:40:34Z",
+      "content": "Apple this week provided troubleshooting steps for iPhone owners who are unable to activate iMessage with a phone number in iOS 26.\r\nAccording to Apple, some customers might not be able to activate i… [+1079 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "iOS 26 Liquid Glass Design Copied by Android Smartphone Maker",
+      "description": "Chinese smartphone maker Vivo has taken some inspiration from Apple's Liquid Glass design language for its latest operating system update, OriginOS 6. Unveiled this week, OriginOS 6 has the same rounded buttons and translucent glass look as iOS 26.\n\n\n\n\r\n\n\nIn …",
+      "url": "https://www.macrumors.com/2025/10/09/ios-26-design-android-copy/",
+      "urlToImage": "https://images.macrumors.com/t/1mEonZVIzvtIEoqb-4ZzLpwLUgE=/1600x/article-new/2025/10/vivo-liquid-glass.jpg",
+      "publishedAt": "2025-10-09T23:07:00Z",
+      "content": "Chinese smartphone maker Vivo has taken some inspiration from Apple's Liquid Glass design language for its latest operating system update, OriginOS 6. Unveiled this week, OriginOS 6 has the same roun… [+976 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "There's a Motorcycle Racing iOS Game You Control With AirPods",
+      "description": "RidePods is a new iOS game that's designed to use the AirPods as a wearable controller, and it is promoted as the world's first earbuds-controlled game.\n\n\n\n\n\nThe idea is to race with head movements, tilting your head left or right to steer and dodge cars. Rid…",
+      "url": "https://www.macrumors.com/2025/09/29/ios-airpods-racing-game/",
+      "urlToImage": "https://images.macrumors.com/t/63BjJPwIF9FANXzgd0yFXrpNpVo=/2000x/article-new/2025/09/ridepods-ios-game.jpg",
+      "publishedAt": "2025-09-29T22:08:53Z",
+      "content": "RidePods is a new iOS game that's designed to use the AirPods as a wearable controller, and it is promoted as the world's first earbuds-controlled game.\r\nThe idea is to race with head movements, tilt… [+1502 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Zachary McAuliffe",
+      "title": "iOS 26: Plan Dinner With Friends With Polls in Messages",
+      "description": "You and your friends can't decide on where to go for food? A poll could help.",
+      "url": "https://www.cnet.com/tech/services-and-software/ios-26-plan-dinner-with-friends-with-polls-in-messages/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/925975c5ec4c78e9865c5f094be83c180c5acb5e/hub/2025/09/15/398e64c3-fb06-4913-8b91-ca4a836dd804/iphone-air-texting.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-09-21T10:30:04Z",
+      "content": "Apple released iOS 26 on Sept. 15, a few months after the company announced it at the Worldwide Developers Conference in June. The update introduces a handful of new features to your iPhone, like a n… [+3045 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Terrence O’Brien",
+      "title": "Apple ends support for Clips video-editing app",
+      "description": "Apple’s Clips video editing app is no more. It debuted in 2017 as a way to stitch together videos with music, text, and filters with a clear focus on sharing to social media. Over the years Apple added AR features and more advanced video editing tools. But re…",
+      "url": "https://www.theverge.com/news/798676/apple-ends-support-for-clips-video-editing-app",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Clips3.webp?quality=90&strip=all&crop=0%2C11.044304996833%2C100%2C77.911390006335&w=1200",
+      "publishedAt": "2025-10-11T19:35:04Z",
+      "content": "Apple’s Clips video editing app is no more. It debuted in 2017 as a way to stitch together videos with music, text, and filters with a clear focus on sharing to social media. Over the years Apple add… [+709 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Andrew Liszewski",
+      "title": "RidePods is the first iPhone game you control with AirPods",
+      "description": "Developer Ali Tanis has released the first game for iPhones and iPads that’s played using Apple’s AirPods as a wearable motion controller. The RidePods – Race with Head gameplay is relatively basic – you’re just steering a motorcycle through oncoming traffic …",
+      "url": "https://www.theverge.com/news/787396/ride-pods-race-with-head-apple-airpods-spatial-audio-motion-controls",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/ridepods_1.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+      "publishedAt": "2025-09-29T18:16:22Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nApples wireless headphones become a motion controller similar to the Switchs Joy-Cons.\r\nApples wireless headphones become a motion controller similar to the Swit… [+4930 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Tom Warren",
+      "title": "These are the Office icons Microsoft rejected",
+      "description": "Microsoft is busy rolling out new curvy and colorful new Office icons, and now it’s revealing a set of design concepts it experimented with before finalizing these new icons. Some of the concepts are radically different from what Microsoft is shipping, with d…",
+      "url": "https://www.theverge.com/news/799736/microsoft-office-icons-test-versions",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/officeicondesignexplorations.jpg?quality=90&strip=all&crop=0%2C10.694144515047%2C100%2C78.611710969907&w=1200",
+      "publishedAt": "2025-10-15T10:09:41Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nMicrosoft explored some designs that closely resembled its older Office for Mac icons.\r\nMicrosoft explored some designs that closely resembled its older Office f… [+2777 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "iOS 26: Use Visual Intelligence With iPhone Screen Content",
+      "description": "In iOS 26, Apple has extended Visual Intelligence to work with content that's on your iPhone, allowing you to ask questions about what you're seeing, look up products, and more.\n\n\n\n\n\nVisual Intelligence started out in iOS 18.2 as a Camera Control button funct…",
+      "url": "https://www.macrumors.com/how-to/use-visual-intelligence-screen-content/",
+      "urlToImage": "https://images.macrumors.com/t/H4p7hXgyn9oSVChtfobdjfDw4oQ=/2000x/article-new/2025/06/visual-lookup-ios-26.jpg",
+      "publishedAt": "2025-09-26T14:43:21Z",
+      "content": "In iOS 26, Apple has extended Visual Intelligence to work with content that's on your iPhone, allowing you to ask questions about what you're seeing, look up products, and more.\r\nVisual Intelligence … [+2554 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "Proton Mail iOS App Gets Major Redesign With Offline Mode",
+      "description": "Proton has rolled out a major update to its Mail app for iOS and Android, introducing a completely rebuilt interface alongside a new offline mode that lets users read, write, and organize emails without an internet connection.\n\n\n\n\n\nFirst up, the privacy-focus…",
+      "url": "https://www.macrumors.com/2025/09/25/proton-mail-ios-app-redesign-offline-mode/",
+      "urlToImage": "https://images.macrumors.com/t/p_8LLJEksqTQygg8f9e2MjnU1pk=/2400x/article-new/2025/09/protonmail.jpeg",
+      "publishedAt": "2025-09-25T13:55:51Z",
+      "content": "Proton has rolled out a major update to its Mail app for iOS and Android, introducing a completely rebuilt interface alongside a new offline mode that lets users read, write, and organize emails with… [+1236 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "iOS 26: Screen and Filter Messages From Unknown Senders",
+      "description": "In iOS 26, Apple has introduced enhanced message filtering that gives you more control over unwanted texts, separating spam messages from unknown senders into distinct categories. Here's how to set up and use these new filtering options to keep your Messages …",
+      "url": "https://www.macrumors.com/how-to/ios-screen-unknown-senders-messages/",
+      "urlToImage": "https://images.macrumors.com/t/q3LYb96BOJSpsDCVqHQW-9MSaFQ=/2000x/article-new/2025/06/ios-26-messages-filtering.jpg",
+      "publishedAt": "2025-09-25T13:11:54Z",
+      "content": "In iOS 26, Apple has introduced enhanced message filtering that gives you more control over unwanted texts, separating spam messages from unknown senders into distinct categories. Here's how to set u… [+2857 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Seeds Third Public Betas of iOS 26.1, iPadOS 26.1 and macOS Tahoe 26.1",
+      "description": "Apple today provided public beta testers with the third releases of upcoming iOS 26.1, iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1 and watchOS 26.1 updates for testing purposes. Apple seeded the betas to developers earlier this week.\n\n\n\n\n\nAfter signing up for be…",
+      "url": "https://www.macrumors.com/2025/10/14/apple-seeds-ios-26-1-public-beta-3/",
+      "urlToImage": "https://images.macrumors.com/t/hA8-InYSASCV9BmL5Loq8C5XKIw=/2500x/article-new/2025/09/iOS-26.1-Feature.jpg",
+      "publishedAt": "2025-10-14T17:16:48Z",
+      "content": "Apple today provided public beta testers with the third releases of upcoming iOS 26.1, iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1 and watchOS 26.1 updates for testing purposes. Apple seeded the betas t… [+696 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipertextual"
+      },
+      "author": "José María López",
+      "title": "iOS 26: todas las novedades, modelos compatibles y cómo instalarlo en tu iPhone",
+      "description": "Un nuevo aire. Cargado de magia. Así presenta Apple su iOS 26, la versión más reciente de su sistema operativo para iPhone y una de las actualizaciones más importantes en los últimos años. Primero, porque cambia la numeración. De iOS 18 saltamos directamente …",
+      "url": "https://hipertextual.com/guias/ios-26/",
+      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2025/09/iOS-26-iPhone-Principal.jpg",
+      "publishedAt": "2025-09-29T09:25:54Z",
+      "content": "Un nuevo aire. Cargado de magia. Así presenta Apple su iOS 26, la versión más reciente de su sistema operativo para iPhone y una de las actualizaciones más importantes en los últimos años. Primero, p… [+22234 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Zachary McAuliffe",
+      "title": "Apple Releases Second iOS 26.1 Beta With a Useful Security Feature",
+      "description": "Apple also adjusts a few other features, like your iPhone's alarm, in the beta.",
+      "url": "https://www.cnet.com/tech/services-and-software/apple-releases-second-ios-26-1-beta-with-a-useful-security-feature/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/1b281cf82d2a84ad18009630d3b5270f03810009/hub/2025/09/23/bc0f2af7-aa83-4f98-a2ca-b8f4f1df9c5e/ios26-1.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-10-07T19:51:18Z",
+      "content": "Apple released the second public beta of iOS 26.1 on Tuesday, less than a month after the company released iOS 26, which introduced Liquid Glass, call screening and more to your device. \r\niOS 26.1 br… [+4752 chars]"
+    }
+  ]
+}

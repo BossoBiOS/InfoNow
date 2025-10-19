@@ -56,21 +56,33 @@ struct MockRequet: APIMiddleware {
     func intercept(_ request: URLRequest, route: any APIOperations.Route.Type, next: @Sendable (URLRequest) async throws -> (HTTPURLResponse, Data?)) async throws -> (HTTPURLResponse, Data?) {
         // only intercept certain routes if you want
         
-        if route == APIOperations.everything.self {
             switch scenario {
             case .success:
-                
-                let mockResponse = JsonLoader().loadJSON("mockedFetchResponce", as: Articles.self)
-                
-                let data = try JSONEncoder().encode(mockResponse)
-                let response = HTTPURLResponse(
-                    url: request.url!,
-                    statusCode: 200,
-                    httpVersion: nil,
-                    headerFields: nil
-                )!
-                return (response, data)
-                
+                if route == APIOperations.everything.self {
+                    let mockResponse = JsonLoader().loadJSON("mockedFetchResponce", as: Articles.self)
+                    
+                    let data = try JSONEncoder().encode(mockResponse)
+                    let response = HTTPURLResponse(
+                        url: request.url!,
+                        statusCode: 200,
+                        httpVersion: nil,
+                        headerFields: nil
+                    )!
+                    return (response, data)
+                } else if route == APIOperations.search.self {
+                    let mockResponse = JsonLoader().loadJSON("mockedSearchFetchResponce", as: Articles.self)
+                    
+                    let data = try JSONEncoder().encode(mockResponse)
+                    let response = HTTPURLResponse(
+                        url: request.url!,
+                        statusCode: 200,
+                        httpVersion: nil,
+                        headerFields: nil
+                    )!
+                    return (response, data)
+                } else {
+                    break
+                }
             case .empty:
                 let mockResponse = Articles(
                     status: "ok",
@@ -109,7 +121,6 @@ struct MockRequet: APIMiddleware {
                 )!
                 return (response, nil)
             }
-        }
         
         // fallback: call the real transport
         return try await next(request)

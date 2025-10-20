@@ -13,8 +13,6 @@ enum NetworkError: Error {
 
 class NetworkService {
     
-    static var shered = NetworkService()
-    
     private let serverUrlString = "https://newsapi.org"
     
     public func fetchAllNews() async throws -> Articles? {

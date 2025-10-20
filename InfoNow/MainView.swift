@@ -10,7 +10,7 @@ import CoreData
 
 struct MainView: View {
 
-    @ObservedObject private var viewModel = NewsListViewModel()
+    @State private var viewModel = NewsListViewModel()
 
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     @Environment(\.verticalSizeClass) private var verticalSizeClass
@@ -21,11 +21,13 @@ struct MainView: View {
     var body: some View {
         VStack {
             self.toolBar
-            
+                .padding(.top, UIDevice().isIpad ? 15 : 0)
+
             switch viewModel.newsListViewState {
             case .loading:
                 loadingView
             case .loaded:
+
                 if UIDevice().isIpad {
                     // IPAD SCREEN
                     if horizontalSizeClass == .regular {
@@ -37,13 +39,14 @@ struct MainView: View {
                     // IPHONE SCREEN
                     NewsList()
                 }
+
             case .empty:
                 self.emptyOrErroView(localizedTitre: "TX_0010")
             case .error:
                 self.emptyOrErroView(localizedTitre: "TX_0011")
             }
         }
-        .environmentObject(viewModel)
+        .environment(viewModel)
         .onChange(of: viewModel.selectedArticle) { oldValue, newValue in
             if newValue != nil {
                 self.openDetailView = true
@@ -55,15 +58,18 @@ struct MainView: View {
         }
         .fullScreenCover(isPresented: $openDetailView) {
             NewsDetail(isOpen: $openDetailView)
-                .environmentObject(viewModel)
+                .environment(viewModel)
         }
+        .onAppear(perform: {
+            viewModel.loadNews()
+        })
         .mocMenu(mocEscapeAction: {viewModel.loadNews()})
     }
 }
 
 extension MainView {
     
-    @ViewBuilder func emptyOrErroView(localizedTitre: LocalizedStringKey) -> some View {
+    func emptyOrErroView(localizedTitre: LocalizedStringKey) -> some View {
         ZStack {
             VStack {
                 Text(localizedTitre)
@@ -76,7 +82,12 @@ extension MainView {
                         .padding()
                         .font(.headline)
                         .foregroundStyle(Color.black)
-                        .background(RoundedRectangle(cornerRadius: 15).foregroundStyle(Color.green.opacity(0.4)))
+                        .background(
+                            Color.green.opacity(0.4)
+                                .clipShape(
+                                    RoundedRectangle(cornerRadius: 15)
+                                )
+                        )
                 }
             }.padding()
             
@@ -85,7 +96,7 @@ extension MainView {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
     
-    @ViewBuilder var loadingView: some View {
+    var loadingView: some View {
         ZStack {
             VStack {
                 Text("TX_0009")
@@ -99,7 +110,7 @@ extension MainView {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
     
-    @ViewBuilder var toolBar: some View {
+    var toolBar: some View {
         HStack {
             Menu {
                 VStack {
@@ -157,7 +168,12 @@ extension MainView {
                     }
                 }
                 .padding(10)
-                .background(RoundedRectangle(cornerRadius: 15).foregroundStyle(Color.blue.opacity(0.07)))
+                .background(
+                    Color.blue.opacity(0.07)
+                        .clipShape(
+                            RoundedRectangle(cornerRadius: 15)
+                        )
+                )
             } else {
                 Text(viewModel.currentLoadNewsType == .all ? "TX_0008" : (viewModel.currentLoadNewsType == .top ? "TX_0016" : ""))
                     .font(.headline)

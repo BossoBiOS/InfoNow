@@ -15,7 +15,8 @@ final class InfoNowTests: XCTestCase {
         
         MocManager.shared.addMoc(mocScenario: .success)
         let vm = NewsListViewModel()
-        
+        vm.loadNews()
+
         try? await Task.sleep(for: .seconds(1))
         
         XCTAssertEqual(vm.newsList.count, 100)
@@ -40,7 +41,8 @@ final class InfoNowTests: XCTestCase {
         
         MocManager.shared.addMoc(mocScenario: .empty)
         let vm = NewsListViewModel()
-        
+        vm.loadNews()
+
         try? await Task.sleep(for: .seconds(1))
         
         XCTAssertEqual(vm.newsList.count, 0)
@@ -54,7 +56,8 @@ final class InfoNowTests: XCTestCase {
         MocManager.shared.addMoc(mocScenario: .serverError)
         
         let vm = NewsListViewModel()
-        
+        vm.loadNews()
+
         try? await Task.sleep(for: .seconds(1))
         
         XCTAssertTrue(vm.newsListViewState == .error)
@@ -65,7 +68,8 @@ final class InfoNowTests: XCTestCase {
         MocManager.shared.addMoc(mocScenario: .success)
         
         let vm = NewsListViewModel()
-        
+        vm.loadNews()
+
         try? await Task.sleep(for: .seconds(1))
         
         guard let first = vm.newsList.first

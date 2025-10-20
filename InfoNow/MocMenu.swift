@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct MocMenu: ViewModifier {
+    
     var mocEscapeAction: ()->Void
+
     @State var rotationAngle = 0.0
     @State var showMocMenu: Bool = false
+
     func body(content: Content) -> some View {
 #if DEBUG
         content
@@ -28,6 +31,7 @@ struct MocMenu: ViewModifier {
                                 showMocMenu.toggle()
                             })
                         }.padding()
+
                         Button("Cancel", action: {
                             MocManager.shared.stopMocing()
                             mocEscapeAction()
@@ -38,10 +42,14 @@ struct MocMenu: ViewModifier {
                     .foregroundStyle(Color.white)
                     .font(.title)
                     .fontWeight(.bold)
-                    .background(RoundedRectangle(cornerRadius: 15).foregroundStyle(Color.black.opacity(0.9)))
+                    .background(
+                        Color.black.opacity(0.9)
+                            .clipShape(RoundedRectangle(cornerRadius: 15))
+                    )
                 }
             }
-        
+#else
+        content
 #endif
     }
 }

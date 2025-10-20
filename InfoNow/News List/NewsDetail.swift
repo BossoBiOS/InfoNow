@@ -10,15 +10,23 @@ import SwiftUI
 struct NewsDetail: View {
     
     @Environment(\.openURL) private var openURL
-    @EnvironmentObject var viewModel: NewsListViewModel
+    @Environment(NewsListViewModel.self) var viewModel
+
     @Binding var isOpen: Bool
+
     @State private var showWebView: Bool = false
+
     var body: some View {
         VStack {
+            Divider().foregroundStyle(Color.clear)
+                .frame(height: UIDevice().isIpad ? 15 : 0)
+
             HStack {
                 Button {
                     if showWebView {
-                        showWebView = false
+                        withAnimation(.easeInOut) {
+                            showWebView = false
+                        }
                     } else {
                         isOpen = false
                     }
@@ -29,7 +37,9 @@ struct NewsDetail: View {
                         .foregroundStyle(.black.opacity(0.8))
                 }
                 .accessibilityIdentifier("close_button")
+
                 Spacer()
+                
                 if showWebView {
                     Button {
                         showWebView = false
@@ -44,11 +54,18 @@ struct NewsDetail: View {
                     }
                     .accessibilityIdentifier("openInSafari_button")
                 }
-            }.padding(.horizontal)
+            }
+            .padding(.horizontal)
+
             Divider()
 
-            ScrollView {
-                self.detailView(article: viewModel.selectedArticle!)
+            ZStack {
+                ScrollView {
+                    self.detailView(article: viewModel.selectedArticle!)
+                }
+                if showWebView {
+                    WebView(url: URL(string: viewModel.selectedArticle!.url!)!, showWebView: $showWebView)
+                }
             }
         }
         .onDisappear {
@@ -58,14 +75,14 @@ struct NewsDetail: View {
 }
 
 extension NewsDetail {
-    
-    
+
     @ViewBuilder private func detailView(article: Article) -> some View {
         VStack(alignment: .leading, spacing: 10) {
             Text(article.source.name ?? "")
                 .font(.caption)
                 .fontWeight(.bold)
                 .foregroundStyle(Color.secondary)
+
             Text(article.title ??  "")
                 .font(.largeTitle)
                 .bold()
@@ -78,15 +95,17 @@ extension NewsDetail {
                 .font(.subheadline)
                
             Divider()
-            HStack(spacing: .ulpOfOne) {
-                
+
+            HStack {
                 Button {
-                    showWebView = true
+                    withAnimation(.easeInOut) {
+                        showWebView = true
+                    }
                 } label: {
-                    
                     HStack {
                         Image(systemName: "link")
                             .foregroundStyle(Color.black.opacity(0.8))
+
                         Text("TX_0005")
                             .foregroundStyle(Color.black.opacity(0.8))
                             .fontWeight(.medium)
@@ -94,73 +113,43 @@ extension NewsDetail {
                     }
                     .padding(10)
                     .background(
-                        RoundedRectangle(cornerRadius: 20)
-                            .foregroundStyle(Color.gray.opacity(0.2))
+                        Color.gray.opacity(0.2)
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
                     )
-                    
+                    .contentShape(Rectangle())
                 }
                 .accessibilityIdentifier("urlLink_button")
+
                 Spacer()
-                Button {
-                    
-                } label: {
-                    Image(systemName: "square.and.arrow.down")
-                        .resizable()
-                        .bold()
-                        .frame(width: 27, height: 35)
-                        .foregroundStyle(.gray.opacity(0.6))
-                }
             }
             .frame(maxWidth: .infinity)
             
             if let url = URL(string: article.urlToImage ?? "") {
-                AsyncImage(url: url) {
-                    phase in
-                    switch phase {
-                    case .empty:
-                        HStack {
-                            ProgressView()
-                        }
-                        .frame(width:350, height: 150)
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(15)
-                            .frame(width:350, height: 150)
-                            .clipShape(RoundedRectangle(cornerSize: CGSize(width: 15, height: 15)))
-                    case .failure:
-                        EmptyView()
-                            .frame(width:350, height: 150)
-                    @unknown default:
-                        EmptyView()
-                    }
-                }
+                ImageView(url: url,
+                          frameWidth: UIDevice().isIpad ? 380 : UIScreen.main.bounds.width-10,
+                          frameHeight: 150
+                )
+                .contentShape(Rectangle())
                 .padding(.bottom)
             }
             
             Divider()
+
             Group {
                 Text(viewModel.selectedArticle?.description ?? "")
+
                 Text(viewModel.selectedArticle?.content ?? "")
             }
             .multilineTextAlignment(.leading)
             .fontWeight(.medium)
         }
         .padding()
-        .ignoresSafeArea()
-        .frame(maxWidth: .infinity)
         .background(Color.gray.opacity(0.04))
-        .overlay {
-            if showWebView {
-                WebView(url: URL(string: article.url!)!, showWebView: $showWebView)
-            }
-        }
     }
 }
 
 #Preview {
     @Previewable @State var isOpen: Bool = true
     NewsDetail(isOpen: $isOpen)
-        .environmentObject(NewsListViewModel())
+        .environment(NewsListViewModel())
 }

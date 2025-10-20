@@ -8,49 +8,61 @@
 import SwiftUI
 
 struct NewsList: View {
-    @EnvironmentObject var viewModel: NewsListViewModel
+
+    @Environment(NewsListViewModel.self) var viewModel
     
+    @State var currentOrientation: UIDeviceOrientation = .portrait
+
     var body: some View {
         List(viewModel.newsList) {article in
-            NewsListUniversalCell(article: article, isIpadView: false, imageFrameSize: UIScreen.main.bounds.width-15)
+            NewsListUniversalCell(
+                article: article,
+                isIpadView: false,
+                imageFrameSize: UIDevice().isIpad ? 380 : UIScreen.main.bounds.width-10
+            )
         }
+        .id(currentOrientation)
+        .frame(width: UIDevice().isIpad ? 400 : nil)
         .listStyle(.plain)
-        .frame(width: 350)
-        .padding()
+        .padding(.top)
+        .onReceive(NotificationCenter.default.publisher(for: UIDevice.orientationDidChangeNotification)) { _ in
+
+            currentOrientation = UIDevice.current.orientation
+        }
     }
 }
 
 
 struct NewsListIpad: View {
+
     enum ViewOrientation {
         static let landscape = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
         static let portrait = [GridItem(.flexible()), GridItem(.flexible())]
     }
     
-    @EnvironmentObject var viewModel: NewsListViewModel
-    
+    @Environment(NewsListViewModel.self) var viewModel
+
     @State private var gridCellSize: CGFloat = (UIScreen.main.bounds.width / 2) - 10
     @State private var gridConfiguration = ViewOrientation.portrait
 
     var body: some View {
         
         ScrollView {
-            LazyVGrid(columns: gridConfiguration,
-                      spacing: 50) {
+            LazyVGrid(columns: gridConfiguration, spacing: 50) {
                 ForEach(viewModel.newsList) { article in
-                    NewsListUniversalCell(article: article, isIpadView: true, imageFrameSize: gridCellSize)
-                        .accessibilityIdentifier("\(article.title ?? "pas de titre")") // only work in moc enviroment
+                    NewsListUniversalCell(
+                        article: article,
+                        isIpadView: true,
+                        imageFrameSize: gridCellSize)
+                    .accessibilityIdentifier("\(article.title ?? "pas de titre")") // only work in moc enviroment
                 }
             }
-                      
-            
         }
         .id(gridConfiguration.count) // force view to updte
         .onAppear(perform: {
                 self.updateUIOnOrientationChange()
         })
         .onReceive(NotificationCenter.default.publisher(for: UIDevice.orientationDidChangeNotification)) { _ in
-           
             self.updateUIOnOrientationChange()
         }
     }
@@ -76,38 +88,24 @@ struct NewsListIpad: View {
 // MARK: Universal reusable cell
 
 struct NewsListUniversalCell: View {
-    @EnvironmentObject var viewModel: NewsListViewModel
-    
+
+    @Environment(NewsListViewModel.self) var viewModel
+
     var article: Article
     var isIpadView: Bool
-    @State var imageFrameSize: CGFloat
+
+    var imageFrameSize: CGFloat
+
     var body: some View {
         let url = URL(string: article.urlToImage ?? "")
         
         VStack(alignment: isIpadView ? .center : .leading) {
-            
             if let url {
-                AsyncImage(url: url) {
-                    phase in
-                    switch phase {
-                    case .empty:
-                        HStack {
-                            ProgressView()
-                        }
-                        .frame(width:isIpadView ? imageFrameSize : imageFrameSize*0.9 , height: imageFrameSize/2)
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(15)
-                            .frame(width: isIpadView ? imageFrameSize : imageFrameSize*0.9 ,height: imageFrameSize/2)
-                            .clipShape(RoundedRectangle(cornerSize: CGSize(width: 15, height: 15)))
-                    case .failure:
-                        emptyView
-                    @unknown default:
-                        emptyView
-                    }
-                }
+                ImageView(url: url,
+                          frameWidth: isIpadView ? imageFrameSize : imageFrameSize * 0.9,
+                          frameHeight: imageFrameSize / 2,
+                          isIpadView: isIpadView
+                )
                 .padding(.bottom)
             } else {
                 emptyView
@@ -117,13 +115,17 @@ struct NewsListUniversalCell: View {
                 .font(.caption)
                 .fontWeight(.bold)
                 .foregroundStyle(Color.secondary)
+
             Text(article.title ?? "")
                 .font(.title2)
+
             Spacer()
+
             HStack {
                 Text(article.publishedAt?.timeFormater ?? "")
                     .font(.caption)
                     .foregroundStyle(Color.secondary)
+
                 Circle()
                     .frame(width: 5)
                 
@@ -141,9 +143,12 @@ struct NewsListUniversalCell: View {
 
 extension NewsListUniversalCell {
     
-    @ViewBuilder var emptyView: some View {
+    var emptyView: some View {
         ZStack {
-            Rectangle().foregroundStyle(Color.clear).frame(width:isIpadView ? imageFrameSize : imageFrameSize*0.9 , height: isIpadView ? imageFrameSize/2 : imageFrameSize/3)
+            Rectangle()
+                .foregroundStyle(Color.clear)
+                .frame(width:isIpadView ? imageFrameSize : imageFrameSize*0.9 , height: isIpadView ? imageFrameSize/2 : imageFrameSize/3)
+
             Image(systemName: "newspaper")
                 .resizable()
                 .frame(width:35, height: 35)
@@ -153,10 +158,10 @@ extension NewsListUniversalCell {
 }
 
 #Preview {
-    NewsListIpad().environmentObject(NewsListViewModel())
+    NewsListIpad().environment(NewsListViewModel())
 }
 
 
-//#Preview {
-//    NewsList().environmentObject(NewsListViewModel())
-//}
+#Preview {
+    NewsList().environment(NewsListViewModel())
+}

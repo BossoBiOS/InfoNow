@@ -7,33 +7,34 @@
 
 import Foundation
 import SwiftUI
-internal import Combine
 
-class NewsListViewModel: ObservableObject {
+protocol ViewModelProtocol {
+    func loadNews(type: LoadNewsTipe)
+    func selectArticle(article: Article)
+}
+
+@Observable
+class NewsListViewModel: ViewModelProtocol {
+
+    private var networking = NetworkService()
     
-    private var networking = NetworkService.shered
+    var newsListViewState: NewsListViewState = .loaded
+    var newsList: [Article] = []
+    var selectedArticle: Article? = nil
     
-    @Published var newsListViewState: NewsListViewState = .loaded
-    @Published var newsList: [Article] = []
-    @Published var selectedArticle: Article? = nil
-    
-    @Published var searchSope: String = ""
-    @Published var currentLoadNewsType: LoadNewsTipe = .all
+    var searchSope: String = ""
+    var currentLoadNewsType: LoadNewsTipe = .all
     
     var totalArticles: Int {
         self.newsList.count
     }
-    
-    init() {
-        self.loadNews()
-    }
-    
+
     public func loadNews(type: LoadNewsTipe = .all) {
         // Save current network type to allow future pull-to-refresh
         self.currentLoadNewsType = type
         
         // Reset the search scope
-        if type != .search && self.searchSope.count>0 {
+        if type != .search && self.searchSope.count > 0 {
             self.searchSope = ""
         } else {
             // When the type is 'searching', clear the news list to allow displaying the loading view state
@@ -57,15 +58,18 @@ class NewsListViewModel: ObservableObject {
                 case .search:
                     data = try await self.networking.fetchNewsWithSearch(scope: self.searchSope)
                 }
-                
-                self.newsList = data?.articles ?? []
-                
-                // Handle the view state according to the result
-                guard self.totalArticles > 0 else {self.newsListViewState = .empty; return}
-                self.newsListViewState = .loaded
+
+                DispatchQueue.main.async {
+                    self.newsList = data?.articles ?? []
+                    // Handle the view state according to the result
+                    guard self.totalArticles > 0 else {self.newsListViewState = .empty; return}
+                    self.newsListViewState = .loaded
+                }
             } catch {
-                self.newsList.removeAll()
-                self.newsListViewState = .error
+                DispatchQueue.main.async {
+                    self.newsList.removeAll()
+                    self.newsListViewState = .error
+                }
             }
         }
     }

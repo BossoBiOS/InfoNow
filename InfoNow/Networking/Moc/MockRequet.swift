@@ -54,7 +54,6 @@ struct MockRequet: APIMiddleware {
     let scenario: Scenario
     
     func intercept(_ request: URLRequest, route: any APIOperations.Route.Type, next: @Sendable (URLRequest) async throws -> (HTTPURLResponse, Data?)) async throws -> (HTTPURLResponse, Data?) {
-        // only intercept certain routes if you want
         
             switch scenario {
             case .success:

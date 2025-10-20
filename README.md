@@ -4,7 +4,7 @@ InfoNow est une application iOS développée en **SwiftUI**, permettant d’affi
 Elle a été conçue dans le cadre d’un test technique afin de démontrer une approche professionnelle du développement mobile : architecture claire (MVVM), code lisible, testable et **évolutif**.
 
 ---
-<img width="2048" height="2048" alt="Illustration_sans_titre" src="https://github.com/user-attachments/assets/da2619e0-0c20-40f2-9441-405164ecb584" />
+<img width="1000" height="1000" alt="Illustration_sans_titre" src="https://github.com/user-attachments/assets/da2619e0-0c20-40f2-9441-405164ecb584" />
 
 ---
 

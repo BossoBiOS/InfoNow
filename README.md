@@ -39,6 +39,9 @@ Elle a été conçue dans le cadre d’un test technique afin de démontrer une 
   - un **lien** vers l’article complet (ouverture dans l’application ou Safari)
   - la **WebView** pour permettre à l’utilisateur de consulter l’article complet directement dans l’application, sans avoir à ouvrir Safari
 
+  ***NB: Branch feat/paged_detailView***
+  - Ajout d’une vue paginée dans le détail des actualités afin de permettre aux utilisateurs de naviguer entre les articles en balayant vers la gauche ou la droite, sans avoir à revenir à la liste des actualités
+
 **Actualisation des données :**  
   Un rafraîchissement par action *pull-to-refresh* permet de récupérer les dernières publications.
 

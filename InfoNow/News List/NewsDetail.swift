@@ -16,6 +16,8 @@ struct NewsDetail: View {
 
     @State private var showWebView: Bool = false
 
+    @State private var selectedNewsIndex: Int = 0
+
     var body: some View {
         VStack {
             Divider().foregroundStyle(Color.clear)
@@ -60,13 +62,29 @@ struct NewsDetail: View {
             Divider()
 
             ZStack {
-                ScrollView {
-                    self.detailView(article: viewModel.selectedArticle!)
-                }
+                PagedView(
+                    selection: $selectedNewsIndex,
+                    before: { index in index-1 },
+                    after: { index in index+1 },
+                    maxIndex: viewModel.totalArticles,
+                    view: { index in
+                        if index < 0 && index < viewModel.totalArticles {
+                            EmptyView()
+                        }
+                        ScrollView {
+                            self.detailView(article: viewModel.newsList[index])
+                        }
+                    })
                 if showWebView {
                     WebView(url: URL(string: viewModel.selectedArticle!.url!)!, showWebView: $showWebView)
                 }
             }
+        }
+        .onChange(of: viewModel.selectedArticle, { oldValue, newValue in
+            selectedNewsIndex = viewModel.currentSelectedIndex
+        })
+        .onAppear {
+            selectedNewsIndex = viewModel.currentSelectedIndex
         }
         .onDisappear {
             viewModel.selectedArticle = nil

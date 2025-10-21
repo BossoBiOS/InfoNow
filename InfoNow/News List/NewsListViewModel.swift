@@ -28,6 +28,9 @@ class NewsListViewModel: ViewModelProtocol {
     var totalArticles: Int {
         self.newsList.count
     }
+    var currentSelectedIndex: Int {
+        return newsList.firstIndex(where: {$0.title == selectedArticle?.title}) ?? 0
+    }
 
     public func loadNews(type: LoadNewsTipe = .all) {
         // Save current network type to allow future pull-to-refresh

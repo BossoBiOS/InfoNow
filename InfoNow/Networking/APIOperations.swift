@@ -10,10 +10,12 @@ import Foundation
 fileprivate let apiKey = "0d2bc1697a614fd9a046a4dc1183df12"
 
 enum APIOperations: Sendable {
+
     protocol Route: Sendable {
         static var domain: AvailableDomaine { get }
         static var methode: APIMethods { get }
     }
+
     protocol Operations {
         associatedtype Output: Decodable
 

@@ -135,6 +135,7 @@ struct NewsListUniversalCell: View {
             }
             .padding(.top)
         }
+        .contentShape(Rectangle())
         .onTapGesture {
             viewModel.selectArticle(article: article)
         }

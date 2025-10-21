@@ -123,8 +123,8 @@ final class InfoNowUITests: XCTestCase {
         
         // Verify that the main view displays 100 articles and the retry button is not visible
         XCTAssertTrue(newsCountText100.exists, "Main View text '100 article(s)' wasn't found")
-        XCTAssertFalse(retryButton.exists, "Main View retry button was found but shouldn't be")
-        
+        XCTAssertFalse(retryButton.waitForExistence(timeout: 1), "Main View retry button was found but shouldn't be")
+
         self.openMockMenuAndSelect(moc: .empty)
         
         let newsCountText0 = app.staticTexts["0 article(s)"]
@@ -133,16 +133,16 @@ final class InfoNowUITests: XCTestCase {
         // Verify the empty state: 0 articles + empty message + retry button visible
         XCTAssertTrue(newsCountText0.exists, "Main View text '0 article(s)' wasn't found")
         XCTAssertTrue(emptyStateMessage.exists, "Main View empty state message wasn't found")
-        XCTAssertTrue(retryButton.exists, "Main View retry button wasn't found")
-        
+        XCTAssertTrue(retryButton.waitForExistence(timeout: 1), "Main View retry button wasn't found")
+
         self.openMockMenuAndSelect(moc: .error1)
         
         let errorMessage01 = app.staticTexts["Une erreur est survenue lors du chargement des articles."]
         
         // Verify error state 1: error message and retry button visible
         XCTAssertTrue(errorMessage01.exists, "Main View error message 01 wasn't found")
-        XCTAssertTrue(retryButton.exists, "Main View retry button wasn't found")
-        
+        XCTAssertTrue(retryButton.waitForExistence(timeout: 1), "Main View retry button wasn't found")
+
         self.openMockMenuAndSelect(moc: .error2)
         
         // Verify error state 2: same error message and retry button visible

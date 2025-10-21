@@ -46,6 +46,7 @@ struct MainView: View {
                 self.emptyOrErroView(localizedTitre: "TX_0011")
             }
         }
+        .contentShape(Rectangle())
         .environment(viewModel)
         .onChange(of: viewModel.selectedArticle) { oldValue, newValue in
             if newValue != nil {

@@ -28,7 +28,7 @@ struct ImageView: View {
                     .resizable()
                     .scaledToFill()
                     .cornerRadius(15)
-                    .frame(width: frameWidth ,height: frameHeight)
+                    .frame(height: frameHeight)
                     .clipShape(
                         RoundedRectangle(cornerSize: CGSize(width: 15, height: 15))
                     )

@@ -9,7 +9,6 @@ import Foundation
 
 extension String {
     var timeFormater: String {
-        
         let isoDateFormater = ISO8601DateFormatter()
         isoDateFormater.timeZone = TimeZone(identifier: "FR")
         if let date = isoDateFormater.date(from: self) {

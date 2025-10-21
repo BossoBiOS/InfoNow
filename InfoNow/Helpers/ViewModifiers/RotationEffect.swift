@@ -10,6 +10,7 @@ import UIKit
 import SwiftUI
 
 struct RotationEffect: ViewModifier {
+    
     @State var rotationAngle = 0.0
     
     func body(content: Content) -> some View {
@@ -25,10 +26,9 @@ struct RotationEffect: ViewModifier {
             }
     }
 }
+
 extension View {
-    
     func customRotationEffect() -> some View {
         modifier(RotationEffect())
     }
-    
 }

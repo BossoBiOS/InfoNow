@@ -154,9 +154,9 @@ extension NewsDetail {
             Divider()
 
             Group {
-                Text(viewModel.selectedArticle?.description ?? "")
+                Text(article.description ?? "")
 
-                Text(viewModel.selectedArticle?.content ?? "")
+                Text(article.content ?? "")
             }
             .multilineTextAlignment(.leading)
             .fontWeight(.medium)

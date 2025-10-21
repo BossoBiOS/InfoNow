@@ -183,6 +183,13 @@ final class InfoNowUITests: XCTestCase {
         
         closeButton.tap()
         XCTAssertFalse(openInSafaryButton.exists, "openInSafary Button was found")
+
+        // test swipe
+        app.swipeLeft()
+        XCTAssertTrue(app.staticTexts["Par Anne-Aël Durand"].waitForExistence(timeout: 1), "Par Anne-Aël Durand wasn't found")
+        XCTAssertTrue(app.staticTexts["Troubles du langage et de l’apprentissage : les prises en charge restent « insuffisantes »"].exists, "titre text wasn't found")
+        XCTAssertTrue(app.staticTexts["Le diagnostic s’améliore, mais, à l’occasion de la journée nationale des troubles dys…"].exists, "Detail View title text wasn't found")
+
     }
 
 }

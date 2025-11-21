@@ -97,10 +97,8 @@ struct NewsListUniversalCell: View {
     var imageFrameSize: CGFloat
 
     var body: some View {
-        let url = URL(string: article.urlToImage ?? "")
-        
         VStack(alignment: isIpadView ? .center : .leading) {
-            if let url {
+            if let url = article.urlToImage {
                 ImageView(url: url,
                           frameWidth: isIpadView ? imageFrameSize : imageFrameSize * 0.9,
                           frameHeight: imageFrameSize / 2,

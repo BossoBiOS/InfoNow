@@ -8,12 +8,44 @@
 import SwiftUI
 
 enum NetworkError: Error {
-    case invalidServerURL, failedClientResponse
+    case invalidServerURL, failedClientResponse, invalidImageURL
 }
 
 class NetworkService {
     
     private let serverUrlString = "https://newsapi.org"
+    
+    private var imageCache: URLCache = URLCache(memoryCapacity: 1024*1024*100, diskCapacity: 1024*1024*100) // 100 Mo
+    
+    public func fetchImage(imageURL: String) async throws -> (UIImage?, Error?) {
+        
+        let client = UniversalApiClient(
+            serverUrl: nil,
+            transport: URLSessionTransport(),
+            middlewares: []
+        )
+       
+        let response: UIImage?
+        var errorT: Error? = nil
+        
+        // Configure request rout
+        let operation = APIOperations.imageFetch.self
+        
+        do {
+            response = try await client.send(
+                cache: imageCache,
+                input: imageURL,
+                route: operation.self,
+                urlRequest: operation.buildURLRequest,
+                decoder: operation.decodeResponse
+            )
+            errorT = nil
+        } catch {
+            response = nil
+            errorT = NetworkError.failedClientResponse
+        }
+        return (response, errorT)
+    }
     
     public func fetchAllNews() async throws -> Articles? {
         

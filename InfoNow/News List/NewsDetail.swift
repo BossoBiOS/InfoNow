@@ -124,7 +124,7 @@ extension NewsDetail {
             }
             .frame(maxWidth: .infinity)
             
-            if let url = URL(string: article.urlToImage ?? "") {
+            if let url = article.urlToImage {
                 ImageView(url: url,
                           frameWidth: UIDevice().isIpad ? 380 : UIScreen.main.bounds.width-10,
                           frameHeight: 150

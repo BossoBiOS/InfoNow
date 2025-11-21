@@ -8,23 +8,27 @@
 import SwiftUI
 
 struct ImageView: View {
+    
+    @Environment(NewsListViewModel.self) var viewModel
 
-    let url: URL
+    let url: String
     var frameWidth: CGFloat
     var frameHeight: CGFloat
     var isIpadView: Bool = false
+    @State private var uiImage: UIImage? = nil
+    @State private var failLoadImage: Bool = false
 
     var body: some View {
-        AsyncImage(url: url) {
-            phase in
-            switch phase {
-            case .empty:
+        Group {
+            if uiImage == nil && !failLoadImage {
                 HStack {
                     ProgressView()
                 }
                 .frame(width: frameWidth , height: frameHeight)
-            case .success(let image):
-                image
+            } else if failLoadImage{
+                emptyView
+            } else {
+                Image(uiImage: uiImage!)
                     .resizable()
                     .scaledToFill()
                     .cornerRadius(15)
@@ -32,10 +36,18 @@ struct ImageView: View {
                     .clipShape(
                         RoundedRectangle(cornerSize: CGSize(width: 15, height: 15))
                     )
-            case .failure:
-                emptyView
-            @unknown default:
-                emptyView
+            }
+        }
+        .task {
+            do {
+                let (image, error) = try await viewModel.loadImage(url: url)
+                guard error == nil else {
+                    failLoadImage = true
+                    return
+                }
+                uiImage = image
+            } catch {
+                failLoadImage = true
             }
         }
         .padding(.bottom)
@@ -43,8 +55,14 @@ struct ImageView: View {
 
     var emptyView: some View {
         ZStack {
-            Rectangle().foregroundStyle(Color.clear).frame(width: frameWidth , height: isIpadView ? frameHeight: (frameHeight * 2) / 3)
-
+            Rectangle()
+                .foregroundStyle(
+                    Color.clear)
+                .frame(
+                    width: frameWidth ,
+                    height: isIpadView ? frameHeight: (frameHeight * 2) / 3
+                )
+            
             Image(systemName: "newspaper")
                 .resizable()
                 .frame(width:35, height: 35)

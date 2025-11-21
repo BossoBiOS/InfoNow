@@ -9,13 +9,13 @@ import Foundation
 
 struct UniversalApiClient: Sendable {
     
-    let serverUrl: URL
+    let serverUrl: URL?
     
     var transport: any APITransport
     
     var middlewares: [any APIMiddleware]
     
-    init(serverUrl: URL,
+    init(serverUrl: URL? = nil,
          transport: any APITransport,
          middlewares: [any APIMiddleware])
     {
@@ -25,6 +25,7 @@ struct UniversalApiClient: Sendable {
     }
     
     func send<OperationOutput>(
+        cache: URLCache? = nil,
         input: String?,
         route: APIOperations.Route.Type,
         urlRequest: (String?) throws -> (URLRequest),
@@ -34,7 +35,7 @@ struct UniversalApiClient: Sendable {
         let (request): (URLRequest) = try urlRequest(input)
         
         var next: @Sendable (URLRequest) async throws -> (HTTPURLResponse, Data?) = { (_request) in
-            try await transport.send(_request, serverUrl: serverUrl)
+            try await transport.send(_request, serverUrl: serverUrl, cache: cache)
         }
         
         for middleware in middlewares {

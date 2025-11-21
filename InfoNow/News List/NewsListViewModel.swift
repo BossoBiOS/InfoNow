@@ -28,6 +28,15 @@ class NewsListViewModel: ViewModelProtocol {
     var totalArticles: Int {
         self.newsList.count
     }
+    
+    public func loadImage(url: String) async throws -> (UIImage?, Error?) {
+        do {
+            let (image, error) = try await networking.fetchImage(imageURL: url)
+            return (image, error)
+        } catch {
+            return (nil, nil)
+        }
+    }
 
     public func loadNews(type: LoadNewsTipe = .all) {
         // Save current network type to allow future pull-to-refresh

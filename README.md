@@ -65,8 +65,12 @@ L’application suit une architecture **MVVM**, garantissant :
 - L’application est compatible avec **iOS 17** et ultérieur.  
 - Avec cette version, les ViewModels marqués `@Observable` n’ont plus besoin d’utiliser `@Published` pour mettre à jour les vues.  
 - Pour afficher du contenu web directement dans l’application, j’utilise `UIViewRepresentable` afin d’intégrer un **WebView**.  
-- Gestion des images URL:** chargement asynchrone avec cache simple (via `AsyncImage`) 
-- Malgré la simplicité apparente de l’interface, des choix techniques stratégiques ont été faits pour optimiser la performance, la lisibilité du code et la gestion des cycles de vie des vues SwiftUI. 
+
+**Gestion des images URL
+- Avant mis à jour commit 21d4d4b: **chargement asynchrone via `AsyncImage` 
+- Apres mis à jour commit avec 21d4d4b: Fonctionnalité visant à **charger les images de manière asynchrone et à les stocker dans un cache dédié**, afin d’éviter les requêtes réseau répétitives et d’accélérer le rendu de l’interface utilisateur.
+
+**Malgré la simplicité apparente de l’interface, des choix techniques stratégiques ont été faits pour optimiser la performance, la lisibilité du code et la gestion des cycles de vie des vues SwiftUI. 
 
 ### Communication avec l’API REST
 
@@ -95,3 +99,4 @@ L’application suit une architecture **MVVM**, garantissant :
 
 ###**NB** : La réalisation de ce projet a pris environ 10 heures.
 
+###**NB2** : La réécriture du code afin de prendre en charge le cache pour le chargement des URLs d’images a pris environ 1 heure supplémentaire
